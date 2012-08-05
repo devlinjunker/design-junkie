@@ -1,0 +1,23 @@
+// 600 px (Tablet Portrait) width CSS sheet
+
+#banner .container{
+display: block;
+}
+
+#logo{
+float : left;
+margin: auto;
+position : inherit;
+}
+
+#menu{
+display : block;
+float : right;
+width : auto;
+margin: auto;
+	li{
+	display : block;
+	float : left;
+	margin : $baselineheight ($baselineheight / 2);
+	}
+}

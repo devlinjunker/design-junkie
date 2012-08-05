@@ -1,0 +1,112 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// 1. ROOT 			`		==============================
+
+// Compass
+@import "compass";
+
+// CSS reset
+@import "compass/reset";
+
+// Variables and mixins
+@import "variables";
+@import "mixins"; 	// font-size(), text-overflow(), horizontal(), vertical(), directional(), bordered(),
+					// rounded(), border-radius(), box-shadow(), drop-shadow(), opacity(), rotate, scale(),
+					// skew(), transition(), translate(), translate3d(), background-alpha(), 
+					// background-size(), background-clip(), box-sizing(), chrome-frame(), clearfix(),
+					// hide-text(), hidden(), invisible(), resize(), user-select(), visuallyhidden(),
+					// focusable(), columns()
+
+// 2. TYPOGRAPHY 			==============================
+
+// Block level (h1, p) and text-level (em, strong) type
+@import "typography"; // h1-6, .header, .header a, .header .a-rss, lists, address, blockquote, q, cite, 
+					  // abbr, b/strong, ins, mark, pre/code/samp, sub, sup
+
+
+// 3. COLOUR 				==============================
+
+// Colour interaction semantics
+@import "colour";	// link colors, swatches
+
+// 4. TEXTURE 				==============================
+
+// Alerts, badges, boxes and gradients
+@import "texture"; 	// .alert (-heading, .close, -sucess, -error, -warning, -inverse), .alert-block,
+					// .badge (-error, -warning, -sucess, -info, -inverse), grad (grey, base, info, 
+					// inverse, success, warning), .well (-large, -small)
+
+// Font Awesome icon fonts (optional)
+@import "font-awesome";
+
+// 5. ELEMENTS 				==============================
+
+// Figures, images and other elements
+@import "elements";
+
+// Standard form controls
+@import "forms";
+
+// Button styles (optional)
+@import "buttons";	// .btn (-disabled, -info, -inverse, -primary, -success, -warning, -extlarge,
+					// -large, -small, -mini), .btn-group, .btn-toolbar
+
+// Tables
+@import "tables";
+
+// 6. LAYOUT 			==============================
+
+// Site wide styles (html, body)
+@import "site";
+
+// Page level layout styles (banner, navigation, content, contentinfo)
+@import "page";
+
+//  7. VENDOR-SPECIFIC 		==============================
+//  8. MODERNIZR 			==============================
+
+@import "modernizr";
+
+//  9. TEMPLATE SPECIFICS 	==============================
+//  10. MEDIA QUERIES 		==============================
+
+
+// 320px - Phones
+@media only screen and (min-width: 240px) {
+@import "320";
+}
+
+// 600px - Tablets
+@media only screen and (min-width: 600px) {
+@import "600";
+}
+
+/*
+// 768px 
+@media only screen and (min-width: 768px) {
+@import "768";
+}
+*/
+
+// 992px  - Desktops
+@media only screen and (min-width: 992px) {
+@import "992";
+}
+
+/*
+// 1382px
+@media only screen and (min-width: 1382px) {
+@import "1382";
+}
+
+
+// 2x
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+@import "2x"; }
+*/

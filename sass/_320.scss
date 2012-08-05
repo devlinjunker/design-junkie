@@ -1,0 +1,23 @@
+// 320 px (Portrait Phone) width CSS sheet
+
+
+#logo{
+@include box-sizing(border-box);
+display : block;
+margin : auto;
+}
+
+#menu{
+	display : table;
+	width: 100%;
+	margin-bottom : $baselineheight / 2;
+	
+	ul{
+	display : table-row;
+	
+		li{
+		display : table-cell;
+		text-align : center;
+		}
+	}
+}
