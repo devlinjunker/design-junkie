@@ -15,4 +15,4 @@
 	<h3>Links</h3>
 </div>
 	
-<?php include 'footer.htm' ?>f
+<?php include 'footer.htm' ?>
