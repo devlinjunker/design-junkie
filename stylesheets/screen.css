@@ -2401,7 +2401,7 @@ table tbody tr:hover th {
 /* Page =================================================== */
 /* line 14, ../sass/_site.scss */
 html {
-  background: #221100;
+  background: white;
   font-size: 62.5%;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: #f3f5f6;
