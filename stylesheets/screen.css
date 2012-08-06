@@ -2503,13 +2503,13 @@ body {
 
 /* line 51, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #pagebanner {
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#bfbfbf));
-  background-image: -webkit-linear-gradient(top, #e6e6e6, #bfbfbf);
-  background-color: #bfbfbf;
-  background-image: -moz-linear-gradient(top, #e6e6e6, #bfbfbf);
-  background-image: -ms-linear-gradient(top, #e6e6e6, #bfbfbf);
-  background-image: -o-linear-gradient(top, #e6e6e6, #bfbfbf);
-  background-image: linear-gradient(top, #e6e6e6, #bfbfbf);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(gray));
+  background-image: -webkit-linear-gradient(top, #e6e6e6, gray);
+  background-color: gray;
+  background-image: -moz-linear-gradient(top, #e6e6e6, gray);
+  background-image: -ms-linear-gradient(top, #e6e6e6, gray);
+  background-image: -o-linear-gradient(top, #e6e6e6, gray);
+  background-image: linear-gradient(top, #e6e6e6, #808080);
   background-repeat: repeat-x;
 }
 /* line 53, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */

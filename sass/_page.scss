@@ -49,7 +49,7 @@ background : url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo
 }
 
 #pagebanner{
-@include vertical($lightergrey, $lightgrey);
+@include vertical($lightergrey, $grey);
 	h2{
 		padding : 5px;
 		margin-left: 15px;
