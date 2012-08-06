@@ -2467,7 +2467,7 @@ body {
   background-image: -o-linear-gradient(top, #2d353e, #181c20);
   background-image: linear-gradient(top, #2d353e, #181c20);
   background-repeat: repeat-x;
-  color: white;
+  color: #e6e6e6;
 }
 /* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 #banner:before, #banner:after {
