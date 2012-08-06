@@ -24,7 +24,7 @@ background-color : $lightergrey;
 #banner{
 @include clearfix;
 @include basegrad;
-color : $grey;
+color : $white;
 
 	a{
 	color : inherit;
