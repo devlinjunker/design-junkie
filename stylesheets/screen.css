@@ -2493,11 +2493,11 @@ body {
   padding: 0px 80px;
   width: 175px;
   height: 60px;
-  background: url(web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
+  background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
 }
 /* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #logo:hover {
-  background: url(web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
+  background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
   cursor: hand;
 }
 
