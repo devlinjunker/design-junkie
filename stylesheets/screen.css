@@ -2518,6 +2518,11 @@ html {
   color: #1a1a1a;
 }
 
+/* line 98, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+#wrapper {
+  height: 100%;
+}
+
 /* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about {
   background-color: #e6e6e6;
@@ -2601,7 +2606,7 @@ html {
   /* line 3, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #about {
     width: 20%;
-    float: left;
+    float: right;
   }
 
   /* line 8, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
