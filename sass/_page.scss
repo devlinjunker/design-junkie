@@ -22,6 +22,10 @@ color: $lightgrey;
 	}
 }
 
+#content{
+background-color: $white;
+}
+
 #banner{
 @include clearfix;
 @include basegrad;
