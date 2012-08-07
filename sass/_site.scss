@@ -11,32 +11,47 @@
 
 // 1. ROOT 					==============================
 
-html {
-background : $bodycolor;
-font-size : 62.5%;
+#accessibility{
+	margin : 0px;
+	padding : 0px;
+	position : fixed;
+	right : 0px;
+	top : 0px;
+	background-color : $lightergrey;
+	color: $lightgrey;
+	@include border-radius(0px, 0px, 7px, 0px);
 
-@include vertical($lightgrey, $white);
-
--webkit-overflow-scrolling : touch;
--webkit-tap-highlight-color : lighten($basecolor, 75%);
--webkit-text-size-adjust : 100%;
--ms-text-size-adjust : 100%; 
+	li{
+		display : inline;
+	}
 }
 
 body {
-margin : 0px;
-padding : 0;
-background-color : transparent;
-font-family : $basefont;
-@include font-size();
-line-height : $baselineheight;
-color : $textcolor; 
-height: 100%
+	margin : 0px;
+	padding : 0;
+	background-color : transparent;
+	font-family : $basefont;
+	line-height : $baselineheight;
+	color : $textcolor; 
+	height: 100%;
+	@include font-size();
 }
 
 .container{
-max-width : 980px;
-margin: 0 auto;
+	max-width : 980px;
+	margin: 0 auto;
+}
+
+html {
+	background : $bodycolor;
+	font-size : 62.5%;
+
+	@include vertical($lightgrey, $white);
+
+	-webkit-overflow-scrolling : touch;
+	-webkit-tap-highlight-color : lighten($basecolor, 75%);
+	-webkit-text-size-adjust : 100%;
+	-ms-text-size-adjust : 100%; 
 }
 
 // 2. TYPOGRAPHY 			==============================
@@ -44,6 +59,41 @@ margin: 0 auto;
 // 4. TEXTURE 				==============================
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
+#banner{
+	@include clearfix;
+	@include basegrad;
+	color : $lightergrey;
+
+	a{
+			color : inherit;
+	}
+	
+	a:hover{
+		color : $lightgrey;
+		text-decoration : none;
+	}
+}
+
+#logo{
+	padding : 0px 80px;
+	width : 175px;
+	height : 60px; 
+	background : url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
+	
+	&:hover{
+		background : url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
+		cursor : hand;
+	}
+}
+
+#pagebanner{
+	h2{
+		padding : 5px;
+		margin-left: 15px;
+		color : lighten($black,10);
+	}
+}
+
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================
 // 9. TEMPLATE SPECIFICS 	==============================

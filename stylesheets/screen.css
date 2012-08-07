@@ -2400,43 +2400,6 @@ table tbody tr:hover th {
 
 /* Page =================================================== */
 /* line 14, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-html {
-  background: white;
-  font-size: 62.5%;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bfbfbf), to(white));
-  background-image: -webkit-linear-gradient(top, #bfbfbf, white);
-  background-color: white;
-  background-image: -moz-linear-gradient(top, #bfbfbf, white);
-  background-image: -ms-linear-gradient(top, #bfbfbf, white);
-  background-image: -o-linear-gradient(top, #bfbfbf, white);
-  background-image: linear-gradient(top, #bfbfbf, #ffffff);
-  background-repeat: repeat-x;
-  -webkit-overflow-scrolling: touch;
-  -webkit-tap-highlight-color: #f3f5f6;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-/* line 26, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-body {
-  margin: 0px;
-  padding: 0;
-  background-color: transparent;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-size: 1.6rem;
-  line-height: 1.5em;
-  color: black;
-  height: 100%;
-}
-
-/* line 37, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-.container {
-  max-width: 980px;
-  margin: 0 auto;
-}
-
-/* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #accessibility {
   margin: 0px;
   padding: 0px;
@@ -2461,12 +2424,49 @@ body {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 20, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #accessibility li {
   display: inline;
 }
 
-/* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 29, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+body {
+  margin: 0px;
+  padding: 0;
+  background-color: transparent;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+  color: black;
+  height: 100%;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+html {
+  background: white;
+  font-size: 62.5%;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bfbfbf), to(white));
+  background-image: -webkit-linear-gradient(top, #bfbfbf, white);
+  background-color: white;
+  background-image: -moz-linear-gradient(top, #bfbfbf, white);
+  background-image: -ms-linear-gradient(top, #bfbfbf, white);
+  background-image: -o-linear-gradient(top, #bfbfbf, white);
+  background-image: linear-gradient(top, #bfbfbf, #ffffff);
+  background-repeat: repeat-x;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: #f3f5f6;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 62, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner {
   *zoom: 1;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d353e), to(#181c20));
@@ -2488,34 +2488,45 @@ body {
 #banner:after {
   clear: both;
 }
-/* line 30, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 67, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a {
   color: inherit;
 }
-/* line 34, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 71, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a:hover {
   color: #bfbfbf;
   text-decoration: none;
 }
 
-/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 77, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo {
   padding: 0px 80px;
   width: 175px;
   height: 60px;
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
 }
-/* line 46, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 83, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo:hover {
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
   cursor: hand;
 }
 
-/* line 53, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #pagebanner h2 {
   padding: 5px;
   margin-left: 15px;
   color: #1a1a1a;
+}
+
+/* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about {
+  background-color: #e6e6e6;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* Modernizr =================================================== */
