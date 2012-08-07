@@ -94,6 +94,10 @@ html {
 	}
 }
 
+.section{
+	@include drop-shadow();
+	@include rounded();
+}
 
 #wrapper{
 	height: 100%;
