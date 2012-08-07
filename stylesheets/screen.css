@@ -2638,4 +2638,9 @@ html {
     float: left;
     margin: 1.5em 0.75em;
   }
+
+  /* line 30, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  #projects {
+    width: 80%;
+  }
 }
