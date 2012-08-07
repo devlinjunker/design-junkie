@@ -15,7 +15,7 @@ html {
 background : $bodycolor;
 font-size : 62.5%;
 
-@include horizontal($lightgrey, $white);
+@include vertical($lightgrey, $white);
 
 -webkit-overflow-scrolling : touch;
 -webkit-tap-highlight-color : lighten($basecolor, 75%);
@@ -31,6 +31,7 @@ font-family : $basefont;
 @include font-size();
 line-height : $baselineheight;
 color : $textcolor; 
+height: 100%
 }
 
 .container{
