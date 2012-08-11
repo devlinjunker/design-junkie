@@ -98,7 +98,7 @@ html {
 	@include drop-shadow();
 	@include rounded();
 	background-color: $lightergrey;
-	@include opacity(80%);
+	@include opacity(70);
 }
 
 #wrapper{
