@@ -97,6 +97,7 @@ html {
 .section{
 	@include drop-shadow();
 	@include rounded();
+	background-color: $lightergrey;
 }
 
 #wrapper{

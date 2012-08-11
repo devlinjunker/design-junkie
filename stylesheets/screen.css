@@ -2526,16 +2526,12 @@ html {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  background-color: #e6e6e6;
 }
 
-/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 103, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
-}
-
-/* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
-#about {
-  background-color: #e6e6e6;
 }
 
 /* Modernizr =================================================== */
@@ -2611,36 +2607,38 @@ html {
   #about {
     width: 20%;
     float: right;
+    height: 600px;
   }
 
-  /* line 8, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 9, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #banner .container {
     display: block;
   }
 
-  /* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 13, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #logo {
     float: left;
     margin: auto;
     position: inherit;
   }
 
-  /* line 18, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 19, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu {
     display: block;
     float: right;
     width: auto;
     margin: auto;
   }
-  /* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu li {
     display: block;
     float: left;
     margin: 1.5em 0.75em;
   }
 
-  /* line 30, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #projects {
     width: 80%;
+    height: 600px;
   }
 }
