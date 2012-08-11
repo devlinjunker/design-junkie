@@ -2610,7 +2610,7 @@ html {
 @media only screen and (min-width: 600px) {
   /* line 3, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #about {
-    width: 20%;
+    width: 190px;
     float: right;
     height: 300px;
   }
@@ -2644,7 +2644,7 @@ html {
   /* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #projects {
     float: left;
-    width: 80%;
+    width: 750px;
     height: 300px;
   }
 }
