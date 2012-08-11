@@ -2530,9 +2530,10 @@ html {
   -webkit-opacity: 20;
   -moz-opacity: 20;
   opacity: 20;
+  margin: 10px;
 }
 
-/* line 104, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 105, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
