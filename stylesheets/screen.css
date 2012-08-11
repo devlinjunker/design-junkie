@@ -2527,9 +2527,9 @@ html {
   -moz-border-radius: 4px;
   border-radius: 4px;
   background-color: #e6e6e6;
-  -webkit-opacity: 70;
-  -moz-opacity: 70;
-  opacity: 70;
+  -webkit-opacity: 20;
+  -moz-opacity: 20;
+  opacity: 20;
 }
 
 /* line 104, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
