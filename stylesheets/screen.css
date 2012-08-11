@@ -2531,10 +2531,9 @@ html {
   -moz-opacity: 20;
   opacity: 20;
   margin: 10px;
-  box-sizing: border-box;
 }
 
-/* line 106, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 105, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
