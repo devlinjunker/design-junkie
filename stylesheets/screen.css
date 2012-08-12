@@ -2528,14 +2528,18 @@ html {
   border-radius: 6px;
   background-color: #e6e6e6;
   margin: 1%;
-  padding: 5px;
+  padding: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* line 105, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+.section h4 {
+  border-bottom: 1.1em;
+}
 
-/* line 106, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
