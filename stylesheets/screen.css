@@ -2559,7 +2559,7 @@ html {
 }
 /* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about .btn {
-  margin: 25px;
+  margin: 0px 25px;
   float: right;
 }
 
