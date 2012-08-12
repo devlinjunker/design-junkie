@@ -2512,9 +2512,9 @@ html {
 }
 
 /* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-#pagebanner h4 {
+#pagebanner h6 {
   padding: 5px;
-  margin-left: 15px;
+  margin-bottom: 0;
   color: #1a1a1a;
 }
 
@@ -2548,6 +2548,10 @@ html {
 #about #myphoto {
   padding: 10px;
   padding-top: 0px;
+}
+/* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about h4 .btn-small {
+  float: right;
 }
 
 /* Modernizr =================================================== */
