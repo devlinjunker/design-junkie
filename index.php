@@ -18,7 +18,7 @@
 </div>
 
 <div id="about" class="section">
-	<h4>About Me <a href="<?php echo $sitepath;?>/about" class="btn">Contact Me</a></h4>
+	<h4>About Me <a href="<?php echo $sitepath;?>/about" class="btn-small">Contact Me</a></h4>
 	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student in Computer Science at Oregon State 
