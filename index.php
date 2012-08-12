@@ -37,7 +37,7 @@
 		<input type="email" id="email" name="email" required/>
 		<label for="subject">Subject:</label>
 		<input type="text" id="subject" name="subject" required/>
-		<textarea id="message" name="message" required></textarea>
+		<textarea id="message" name="message" rows="20" required></textarea>
 		<input type="submit"/>
 	</form>
 </div>
