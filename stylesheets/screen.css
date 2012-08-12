@@ -2548,12 +2548,16 @@ html {
   height: 100%;
 }
 
-/* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about {
+  display: table;
+}
+/* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about #myphoto {
   padding: 10px;
   padding-top: 0px;
 }
-/* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+/* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about .btn {
   margin: 5px;
 }
