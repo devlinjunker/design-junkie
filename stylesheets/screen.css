@@ -2704,4 +2704,12 @@ html {
   #quickcontact {
     width: 600px;
   }
+  /* line 50, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  #quickcontact #name {
+    width: 150px;
+  }
+  /* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  #quickcontact #email {
+    width: 200px;
+  }
 }
