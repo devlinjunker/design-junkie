@@ -2544,11 +2544,6 @@ html {
   height: 100%;
 }
 
-/* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
-#about #myphoto {
-  float: right;
-}
-
 /* Modernizr =================================================== */
 /* audio */
 /* applicationcache */
@@ -2624,41 +2619,45 @@ html {
     float: right;
     height: 150px;
   }
+  /* line 8, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  #about #myphoto {
+    float: right;
+  }
 
-  /* line 9, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 13, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #banner .container {
     display: block;
   }
 
-  /* line 13, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #projects {
     float: left;
     width: 78%;
     height: 600px;
   }
 
-  /* line 19, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #links {
     float: right;
     height: 600px;
     width: 18%;
   }
 
-  /* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 29, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #logo {
     float: left;
     margin: auto;
     position: inherit;
   }
 
-  /* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 35, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu {
     display: block;
     float: right;
     width: auto;
     margin: auto;
   }
-  /* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 41, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu li {
     display: block;
     float: left;

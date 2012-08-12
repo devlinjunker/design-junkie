@@ -4,10 +4,14 @@
 	width: 98%;
 	float: right;
 	height: 150px;
+	
+	#myphoto{
+		float:right;
+	}
 }
 
 #banner .container{
-display: block;
+	display: block;
 }
 
 #projects{
@@ -23,20 +27,21 @@ display: block;
 }
 
 #logo{
-float : left;
-margin: auto;
-position : inherit;
+	float : left;
+	margin: auto;
+	position : inherit;
 }
  
 #menu{
-display : block;
-float : right;
-width : auto;
-margin: auto;
-	li{
 	display : block;
-	float : left;
-	margin : $baselineheight ($baselineheight / 2);
+	float : right;
+	width : auto;
+	margin: auto;
+	
+	li{
+		display : block;
+		float : left;
+		margin : $baselineheight ($baselineheight / 2);
 	}
 }
 
