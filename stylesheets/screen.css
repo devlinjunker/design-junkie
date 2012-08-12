@@ -2608,7 +2608,7 @@ html {
   #about {
     width: 98%;
     float: right;
-    height: 300px;
+    height: 150px;
   }
 
   /* line 9, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
@@ -2626,24 +2626,25 @@ html {
   /* line 19, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #links {
     float: right;
+    height: 600px;
     width: 18%;
   }
 
-  /* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #logo {
     float: left;
     margin: auto;
     position: inherit;
   }
 
-  /* line 30, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu {
     display: block;
     float: right;
     width: auto;
     margin: auto;
   }
-  /* line 35, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #menu li {
     display: block;
     float: left;
