@@ -2517,8 +2517,12 @@ html {
   margin-bottom: 0;
   color: #1a1a1a;
 }
+/* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+#pagebanner h6 ul {
+  margin: 0;
+}
 
-/* line 97, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -2534,12 +2538,12 @@ html {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 105, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section h4 {
   margin-bottom: 0.4em;
 }
 
-/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 115, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
@@ -2552,7 +2556,7 @@ html {
 /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about h4 .btn-small {
   float: right;
-  padding-right: 15px;
+  margin-right: 15px;
 }
 
 /* Modernizr =================================================== */
