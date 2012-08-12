@@ -2553,6 +2553,10 @@ html {
   padding: 10px;
   padding-top: 0px;
 }
+/* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about .btn {
+  margin: 5px;
+}
 
 /* Modernizr =================================================== */
 /* audio */
