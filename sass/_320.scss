@@ -1,5 +1,11 @@
 // 320 px (Portrait Phone) width CSS sheet
 
+#about{
+	#myphoto{
+		margin:auto;
+	}
+
+}
 
 #logo{
 	@include box-sizing(border-box);

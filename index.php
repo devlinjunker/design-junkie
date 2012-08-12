@@ -19,7 +19,8 @@
 	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student in Computer Science at Oregon State University. 
-		<br/>I am interested in web and mobile application development and I have experience in MySQL and wiith relational
+		<br/><br/>
+		I am interested in web and mobile application development and I have experience in MySQL and wiith relational
 		database's to track and store information for organizations. 
 	</div>
 	

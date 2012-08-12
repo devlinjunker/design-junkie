@@ -2544,6 +2544,11 @@ html {
   height: 100%;
 }
 
+/* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about #myphoto {
+  padding: 10px;
+}
+
 /* Modernizr =================================================== */
 /* audio */
 /* applicationcache */
@@ -2587,6 +2592,11 @@ html {
 /* webworkers */
 @media only screen and (min-width: 240px) {
   /* line 4, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  #about #myphoto {
+    margin: auto;
+  }
+
+  /* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2596,17 +2606,17 @@ html {
     margin: auto;
   }
 
-  /* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu {
     display: table;
     width: 100%;
     margin-bottom: 0.75em;
   }
-  /* line 15, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 21, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu ul {
     display: table-row;
   }
-  /* line 18, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu ul li {
     display: table-cell;
     text-align: center;
