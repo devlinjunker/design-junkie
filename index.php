@@ -35,6 +35,10 @@
 		<input type="text" id="name" name="name"/>
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" required/>
+		<label for="subject">Subject:</label>
+		<input type="text" id="subject" name="subject" required/>
+		<textarea id="message" name="message" required/>
+		<input type="submit"/>
 	</form>
 </div>
 
