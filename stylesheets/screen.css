@@ -2563,6 +2563,11 @@ html {
   float: right;
 }
 
+/* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#quickcontact {
+  padding-top: 50px;
+}
+
 /* Modernizr =================================================== */
 /* audio */
 /* applicationcache */

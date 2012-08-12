@@ -1,4 +1,4 @@
-<?php $pagetitle="Home"; ?>
+<?php $pagename="home"; ?>
 <?php include 'header.htm'; ?>
 
 <div id="projects" class="section">
@@ -30,12 +30,12 @@
 		and relational database's to track and store information for organizations. 
 	</div>
 	<a href="<?php echo $sitepath;?>/about" class="btn">Quick Contact</a>
-	<div>
+	<form id="quickcontact">
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"/>
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" required/>
-	</div>
+	</form>
 </div>
 
 	
