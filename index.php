@@ -16,6 +16,7 @@
 
 <div id="about" class="section">
 	<h4>About Me</h4>
+	<img src="img/myphoto.jpg"></img>
 </div>
 
 	
