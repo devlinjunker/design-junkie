@@ -2604,9 +2604,10 @@ html {
   /* line 4, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #about #myphoto {
     margin: auto;
+    float: left;
   }
 
-  /* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2616,17 +2617,17 @@ html {
     margin: auto;
   }
 
-  /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu {
     display: table;
     width: 100%;
     margin-bottom: 0.75em;
   }
-  /* line 21, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 22, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu ul {
     display: table-row;
   }
-  /* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
+  /* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #menu ul li {
     display: table-cell;
     text-align: center;
