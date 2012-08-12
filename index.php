@@ -31,7 +31,10 @@
 	</div>
 	<a href="<?php echo $sitepath;?>/about" class="btn">Quick Contact</a>
 	<div>
-		<label for="name">Name:</label><input name="name"/>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"/>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required/>
 	</div>
 </div>
 
