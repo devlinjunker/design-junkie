@@ -21,14 +21,18 @@
 	<h4>About Me</h4>
 	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
 	<div id="text">
-		My name is Devlin Junker, I'm an undergraduate student in Computer Science at Oregon State 
-		University. 
+		My name is Devlin Junker, I'm an undergraduate student studying Computer Science at Oregon 
+		State University with a focus on usability engineering. Networking is evolving at an amazing 
+		speend and the development of interfaces to facilitate communication
 		<br/><br/>
-		I am interested in web and mobile application development and I have experience developing 
-		applications using HTML, CSS, Javascript, AJAX, Ruby and PHP in conjuction with MySQL 
+		I am  interested in web and mobile application development and I have experience developing 
+		applications using HTML, CSS, Javascript, Ruby and PHP in conjuction with AJAX, MySQL 
 		and relational database's to track and store information for organizations. 
 	</div>
-	 <a href="<?php echo $sitepath;?>/about" class="btn">Quick Contact</a>
+	<a href="<?php echo $sitepath;?>/about" class="btn">Quick Contact</a>
+	<div>
+		<label for="name">Name:</label><input name="name"/>
+	</div>
 </div>
 
 	
