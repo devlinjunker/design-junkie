@@ -24,9 +24,9 @@
 		My name is Devlin Junker, I'm an undergraduate student in Computer Science at Oregon State 
 		University. 
 		<br/><br/>
-		I am interested in web and mobile application development and I have experience 
-		using HTML, CSS, Javascript, AJAX, Ruby and PHP in conjuction with MySQL and relational
-		database's to track and store information for organizations. 
+		I am interested in web and mobile application development and I have experience developing 
+		applications using HTML, CSS, Javascript, AJAX, Ruby and PHP in conjuction with MySQL 
+		and relational database's to track and store information for organizations. 
 	</div>
 	
 </div>

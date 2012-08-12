@@ -2552,6 +2552,7 @@ html {
 /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about h4 .btn-small {
   float: right;
+  padding-right: 15px;
 }
 
 /* Modernizr =================================================== */
