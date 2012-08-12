@@ -28,7 +28,7 @@
 		applications using HTML, CSS, Javascript, AJAX, Ruby and PHP in conjuction with MySQL 
 		and relational database's to track and store information for organizations. 
 	</div>
-	 <a href="<?php echo $sitepath;?>/about" class="btn-small">Contact</a>
+	 <a href="<?php echo $sitepath;?>/about" class="btn">Contact</a>
 </div>
 
 	
