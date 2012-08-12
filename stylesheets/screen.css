@@ -2544,6 +2544,11 @@ html {
   height: 100%;
 }
 
+/* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#about #myphoto {
+  float: right;
+}
+
 /* Modernizr =================================================== */
 /* audio */
 /* applicationcache */
