@@ -13,8 +13,7 @@
 		There were some problems with your submission:
 	</li>
 	<?php
-		 :
-
+		if(isset($FORM["errors"]) && count($FORM["errors"]) > 0) :
 			foreach($FORM["ERRORS"] AS $ERROR) :
 				echo "<li>$ERROR</li>";
 			endforeach;
