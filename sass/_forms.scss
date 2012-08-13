@@ -56,9 +56,13 @@ margin : 0 0 $baselineheight 0;
     }
 }
 
-input [type=submit]:active{
-	position:relative;
-	top: 1px;
+input [type=submit]{
+	float: right;
+
+	:active{
+		position:relative;
+		top: 1px;
+	}
 }
 
 fieldset {

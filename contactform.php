@@ -26,7 +26,7 @@
 </p>
 
 <label for="name">Name:</label>
-<input type="text" id="name" name="name"/>
+<input type="text" id="name" name="name" required="required"/>
 
 <label for="email">Email:</label>
 <input type="email" id="email" name="email" required="required"/>
@@ -34,6 +34,7 @@
 <label for="subject">Subject:</label>
 <input type="text" id="subject" name="subject" required="required"/>
 
-<textarea id="message" name="message" rows="20" required="required"></textarea>
+<textarea id="message" name="message" required="required" 
+			min-length="20" placeholder="20 Character Minimum"></textarea>
 
 <input type="submit"/>
