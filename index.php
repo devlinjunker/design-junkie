@@ -44,7 +44,7 @@
 	<form id="quickcontact" class="contactform">
 		<?php 
 			$scripts[] = "contactform.js";
-			include(contactform.php);
+			include("contactform.php");
 		?>
 	</form>
 </div>
