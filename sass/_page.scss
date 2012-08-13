@@ -25,6 +25,19 @@
 	color: $linkcolor;
 }
 
+#projects li{
+	@include rounded(6px);
+	border: 1px solid black;
+
+	figure{
+		float: left;
+	}
+
+	p{
+		float: left;
+	}
+}
+
 #quickcontact{
 	padding-top:50px;
 	width: 600px;

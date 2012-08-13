@@ -1,10 +1,10 @@
 <?php $pagename="home"; ?>
 <?php include 'header.htm'; ?>
 
-<section id="projects" class="section">
+<section id="content" class="section">
 	<h4>Projects</h4>
 	
-	<ol>
+	<ol id="projects">
 		<li>
 			<article>
 				<h5>Energy Efficiency Center Web Database</h5>

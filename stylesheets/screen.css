@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,63 +24,63 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
 /* Variables =================================================== */
 /* Mixins =================================================== */
-/* line 223, ../sass/_mixins.scss */
+/* line 223, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 .hidden {
   display: none !important;
   visibility: hidden;
 }
 
-/* line 229, ../sass/_mixins.scss */
+/* line 229, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 248, ../sass/_mixins.scss */
+/* line 248, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 .visuallyhidden {
   overflow: hidden;
   position: absolute;
@@ -91,7 +91,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   padding: 0;
   border: 0;
 }
-/* line 262, ../sass/_mixins.scss */
+/* line 262, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
   position: static;
   clip: auto;
@@ -102,7 +102,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* Typography =================================================== */
-/* line 19, ../sass/_typography.scss */
+/* line 19, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h1,
 h2,
 h3,
@@ -116,14 +116,14 @@ h6 {
   text-rendering: optimizelegibility;
 }
 
-/* line 27, ../sass/_typography.scss */
+/* line 27, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h1 small,
 h2 small {
   font-weight: normal;
   color: #bfbfbf;
 }
 
-/* line 32, ../sass/_typography.scss */
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h1,
 .h1 {
   margin-bottom: 0.75em;
@@ -132,7 +132,7 @@ h1,
   line-height: 1.2;
 }
 
-/* line 38, ../sass/_typography.scss */
+/* line 38, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h2,
 .h2 {
   margin-bottom: 0.75em;
@@ -141,7 +141,7 @@ h2,
   line-height: 1.2;
 }
 
-/* line 44, ../sass/_typography.scss */
+/* line 44, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h3,
 .h3 {
   margin-bottom: 1em;
@@ -150,7 +150,7 @@ h3,
   line-height: 1.3;
 }
 
-/* line 50, ../sass/_typography.scss */
+/* line 50, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h4,
 .h4 {
   margin-bottom: 1.5em;
@@ -159,7 +159,7 @@ h4,
   line-height: 1.25;
 }
 
-/* line 56, ../sass/_typography.scss */
+/* line 56, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h5,
 .h5 {
   font-size: 16px;
@@ -167,7 +167,7 @@ h5,
   margin-bottom: 1.5em;
 }
 
-/* line 61, ../sass/_typography.scss */
+/* line 61, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 h6,
 .h6 {
   margin-bottom: 1.5em;
@@ -178,14 +178,14 @@ h6,
   text-transform: uppercase;
 }
 
-/* line 72, ../sass/_typography.scss */
+/* line 72, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .header h1,
 .header h2,
 .header h3 {
   float: left;
   margin-right: 24px;
 }
-/* line 76, ../sass/_typography.scss */
+/* line 76, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .header h1 a,
 .header h2 a,
 .header h3 a {
@@ -198,14 +198,14 @@ h6,
   font-size: 1.4rem;
   background-color: #f3f5f6;
 }
-/* line 85, ../sass/_typography.scss */
+/* line 85, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .header h1:hover,
 .header h2:hover,
 .header h3:hover {
   background-color: #f3f5f6;
 }
 
-/* line 90, ../sass/_typography.scss */
+/* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .header .a-rss,
 .header .a-rss:hover {
   float: left;
@@ -218,7 +218,7 @@ h6,
   overflow: hidden;
 }
 
-/* line 104, ../sass/_typography.scss */
+/* line 104, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 p,
 ol,
 ul,
@@ -230,20 +230,20 @@ address {
   line-height: 1.5em;
 }
 
-/* line 109, ../sass/_typography.scss */
+/* line 109, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 small {
   font-size: 12px;
   font-size: 1.2rem;
 }
 
-/* line 113, ../sass/_typography.scss */
+/* line 113, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 ul,
 ol {
   margin: 0 0 1.5em -24px;
   padding: 0 0 0 24px;
 }
 
-/* line 118, ../sass/_typography.scss */
+/* line 118, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 li ul,
 li ol {
   margin: 0;
@@ -251,7 +251,7 @@ li ol {
   font-size: 1.6rem;
 }
 
-/* line 124, ../sass/_typography.scss */
+/* line 124, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 blockquote {
   margin: 0 0 1.5em -24px;
   padding-left: 24px;
@@ -260,12 +260,12 @@ blockquote {
   font-style: normal;
 }
 
-/* line 131, ../sass/_typography.scss */
+/* line 131, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 q {
   quotes: none;
 }
 
-/* line 137, ../sass/_typography.scss */
+/* line 137, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 blockquote:before,
 blockquote:after,
 q:before,
@@ -274,58 +274,58 @@ q:after {
   content: none;
 }
 
-/* line 141, ../sass/_typography.scss */
+/* line 141, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 cite {
   font-style: normal;
 }
 
-/* line 147, ../sass/_typography.scss */
+/* line 147, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 dl,
 dd {
   margin-bottom: 1.5em;
 }
 
-/* line 150, ../sass/_typography.scss */
+/* line 150, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 dt {
   font-weight: bold;
 }
 
-/* line 155, ../sass/_typography.scss */
+/* line 155, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .dl-horizontal dt {
   float: left;
   clear: left;
   width: 20.25%;
   text-align: right;
 }
-/* line 161, ../sass/_typography.scss */
+/* line 161, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 .dl-horizontal dd {
   margin-left: 22.78%;
 }
 
-/* line 167, ../sass/_typography.scss */
+/* line 167, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted #c7ced6;
   cursor: help;
 }
 
-/* line 171, ../sass/_typography.scss */
+/* line 171, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 b, strong {
   font-weight: bold;
 }
 
-/* line 174, ../sass/_typography.scss */
+/* line 174, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 177, ../sass/_typography.scss */
+/* line 177, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 ins {
   background-color: #f3f5f6;
   color: black;
   text-decoration: none;
 }
 
-/* line 182, ../sass/_typography.scss */
+/* line 182, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 mark {
   background-color: #f3f5f6;
   color: black;
@@ -333,7 +333,7 @@ mark {
   font-weight: bold;
 }
 
-/* line 191, ../sass/_typography.scss */
+/* line 191, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 pre,
 code,
 kbd,
@@ -344,14 +344,14 @@ samp {
   line-height: 1.5em;
 }
 
-/* line 196, ../sass/_typography.scss */
+/* line 196, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 202, ../sass/_typography.scss */
+/* line 202, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 sub,
 sup {
   position: relative;
@@ -361,62 +361,62 @@ sup {
   vertical-align: baselineheight;
 }
 
-/* line 208, ../sass/_typography.scss */
+/* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 211, ../sass/_typography.scss */
+/* line 211, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
 /* Colour =================================================== */
-/* line 16, ../sass/_colour.scss */
+/* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 a {
   text-decoration: none;
   color: #013568;
 }
-/* line 20, ../sass/_colour.scss */
+/* line 20, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 a:visited {
   color: #000203;
 }
-/* line 23, ../sass/_colour.scss */
+/* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 a:hover {
   text-decoration: underline;
   color: #011b35;
 }
-/* line 27, ../sass/_colour.scss */
+/* line 27, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 a:focus {
   outline: thin dotted;
   color: black;
 }
-/* line 32, ../sass/_colour.scss */
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 36, ../sass/_colour.scss */
+/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 ::-moz-selection {
   background-color: #d6dbe1;
   color: #2d353e;
   text-shadow: none;
 }
 
-/* line 41, ../sass/_colour.scss */
+/* line 41, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 ::selection {
   background-color: #d6dbe1;
   color: #2d353e;
   text-shadow: none;
 }
 
-/* line 48, ../sass/_colour.scss */
+/* line 48, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch {
   margin: 0 0 1.5em 0;
   padding: 0;
 }
 
-/* line 52, ../sass/_colour.scss */
+/* line 52, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-row {
   display: block;
   margin: 0;
@@ -424,17 +424,17 @@ a:hover, a:active {
   width: 200px;
 }
 
-/* line 58, ../sass/_colour.scss */
+/* line 58, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-row-one {
   background-color: black;
 }
 
-/* line 61, ../sass/_colour.scss */
+/* line 61, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-row-two {
   background-color: white;
 }
 
-/* line 64, ../sass/_colour.scss */
+/* line 64, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-row span {
   display: block;
   float: left;
@@ -442,128 +442,128 @@ a:hover, a:active {
   height: 50px;
 }
 
-/* line 72, ../sass/_colour.scss */
+/* line 72, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-base span:nth-child(1) {
   background-color: rgba(45, 53, 62, 0.9);
 }
 
-/* line 75, ../sass/_colour.scss */
+/* line 75, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-base span:nth-child(2) {
   background-color: rgba(45, 53, 62, 0.8);
 }
 
-/* line 78, ../sass/_colour.scss */
+/* line 78, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-base span:nth-child(3) {
   background-color: rgba(45, 53, 62, 0.7);
 }
 
-/* line 81, ../sass/_colour.scss */
+/* line 81, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-base span:nth-child(4) {
   background-color: rgba(45, 53, 62, 0.6);
 }
 
-/* line 86, ../sass/_colour.scss */
+/* line 86, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-alert span:nth-child(1) {
   background-color: rgba(252, 248, 227, 0.9);
 }
 
-/* line 89, ../sass/_colour.scss */
+/* line 89, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-alert span:nth-child(2) {
   background-color: rgba(252, 248, 227, 0.8);
 }
 
-/* line 92, ../sass/_colour.scss */
+/* line 92, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-alert span:nth-child(3) {
   background-color: rgba(252, 248, 227, 0.7);
 }
 
-/* line 95, ../sass/_colour.scss */
+/* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-alert span:nth-child(4) {
   background-color: rgba(252, 248, 227, 0.6);
 }
 
-/* line 100, ../sass/_colour.scss */
+/* line 100, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-error span:nth-child(1) {
   background-color: rgba(218, 79, 73, 0.9);
 }
 
-/* line 103, ../sass/_colour.scss */
+/* line 103, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-error span:nth-child(2) {
   background-color: rgba(218, 79, 73, 0.8);
 }
 
-/* line 106, ../sass/_colour.scss */
+/* line 106, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-error span:nth-child(3) {
   background-color: rgba(218, 79, 73, 0.7);
 }
 
-/* line 109, ../sass/_colour.scss */
+/* line 109, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-error span:nth-child(4) {
   background-color: rgba(218, 79, 73, 0.6);
 }
 
-/* line 114, ../sass/_colour.scss */
+/* line 114, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-info span:nth-child(1) {
   background-color: rgba(217, 237, 247, 0.9);
 }
 
-/* line 117, ../sass/_colour.scss */
+/* line 117, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-info span:nth-child(2) {
   background-color: rgba(217, 237, 247, 0.8);
 }
 
-/* line 120, ../sass/_colour.scss */
+/* line 120, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-info span:nth-child(3) {
   background-color: rgba(217, 237, 247, 0.7);
 }
 
-/* line 123, ../sass/_colour.scss */
+/* line 123, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-info span:nth-child(4) {
   background-color: rgba(217, 237, 247, 0.6);
 }
 
-/* line 128, ../sass/_colour.scss */
+/* line 128, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-success span:nth-child(1) {
   background-color: rgba(91, 183, 91, 0.9);
 }
 
-/* line 131, ../sass/_colour.scss */
+/* line 131, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-success span:nth-child(2) {
   background-color: rgba(91, 183, 91, 0.8);
 }
 
-/* line 134, ../sass/_colour.scss */
+/* line 134, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-success span:nth-child(3) {
   background-color: rgba(91, 183, 91, 0.7);
 }
 
-/* line 137, ../sass/_colour.scss */
+/* line 137, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-success span:nth-child(4) {
   background-color: rgba(91, 183, 91, 0.6);
 }
 
-/* line 142, ../sass/_colour.scss */
+/* line 142, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-warning span:nth-child(1) {
   background-color: rgba(250, 167, 50, 0.9);
 }
 
-/* line 145, ../sass/_colour.scss */
+/* line 145, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-warning span:nth-child(2) {
   background-color: rgba(250, 167, 50, 0.8);
 }
 
-/* line 148, ../sass/_colour.scss */
+/* line 148, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-warning span:nth-child(3) {
   background-color: rgba(250, 167, 50, 0.7);
 }
 
-/* line 151, ../sass/_colour.scss */
+/* line 151, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_colour.scss */
 .swatch-warning span:nth-child(4) {
   background-color: rgba(250, 167, 50, 0.6);
 }
 
 /* Texture =================================================== */
-/* line 18, ../sass/_texture.scss */
+/* line 18, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert {
   margin-bottom: 1.5em;
   padding: 8px 35px 8px 14px;
@@ -589,11 +589,11 @@ a:hover, a:active {
   font-size: 1.4rem;
   color: #9c8611;
 }
-/* line 28, ../sass/_texture.scss */
+/* line 28, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert .alert-heading {
   color: inherit;
 }
-/* line 31, ../sass/_texture.scss */
+/* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert .close {
   position: relative;
   top: -2px;
@@ -606,56 +606,56 @@ a:hover, a:active {
   color: inherit;
 }
 
-/* line 42, ../sass/_texture.scss */
+/* line 42, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-success {
   background-color: #c5e6c5;
   border-color: #a2d6a2;
   color: #347834;
 }
 
-/* line 47, ../sass/_texture.scss */
+/* line 47, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-warning {
   background-color: #fee7c7;
   border-color: #fcd296;
   color: #c17305;
 }
 
-/* line 52, ../sass/_texture.scss */
+/* line 52, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-error {
   background-color: #f4cac8;
   border-color: #eba19e;
   color: #da4f49;
 }
 
-/* line 57, ../sass/_texture.scss */
+/* line 57, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-inverse {
   background-color: #414141;
   border-color: black;
   color: white;
 }
 
-/* line 64, ../sass/_texture.scss */
+/* line 64, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-block {
   padding-top: 14px;
   padding-bottom: 14px;
 }
-/* line 68, ../sass/_texture.scss */
+/* line 68, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-block .alert-heading {
   margin-bottom: 0.188em;
   font-size: inherit;
   font-weight: bold;
 }
-/* line 74, ../sass/_texture.scss */
+/* line 74, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-block > p,
 .alert-block > ul {
   margin-bottom: 0;
 }
-/* line 77, ../sass/_texture.scss */
+/* line 77, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .alert-block p + p {
   margin-top: 5px;
 }
 
-/* line 83, ../sass/_texture.scss */
+/* line 83, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge {
   padding: 1px 8px 2px;
   font-size: 12px;
@@ -673,68 +673,68 @@ a:hover, a:active {
   -o-transition: background-color 0.25s 0 linear;
   transition: background-color 0.25s 0 linear;
 }
-/* line 93, ../sass/_texture.scss */
+/* line 93, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge:hover {
   color: gray;
   text-decoration: none;
   cursor: pointer;
 }
 
-/* line 99, ../sass/_texture.scss */
+/* line 99, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-error {
   background-color: #da4f49;
   color: white;
 }
-/* line 103, ../sass/_texture.scss */
+/* line 103, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-error:hover {
   background-color: #9d2520;
   color: white;
 }
 
-/* line 108, ../sass/_texture.scss */
+/* line 108, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-warning {
   background-color: #faa732;
   color: white;
 }
-/* line 112, ../sass/_texture.scss */
+/* line 112, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-warning:hover {
   background-color: #c17305;
   color: white;
 }
 
-/* line 117, ../sass/_texture.scss */
+/* line 117, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-success {
   background-color: #5bb75b;
   color: white;
 }
-/* line 121, ../sass/_texture.scss */
+/* line 121, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-success:hover {
   background-color: #347834;
   color: white;
 }
 
-/* line 126, ../sass/_texture.scss */
+/* line 126, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-info {
   background-color: #d9edf7;
   color: #247fad;
 }
-/* line 130, ../sass/_texture.scss */
+/* line 130, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-info:hover {
   background-color: #85c5e5;
 }
 
-/* line 134, ../sass/_texture.scss */
+/* line 134, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-inverse {
   background-color: #414141;
   color: white;
 }
-/* line 138, ../sass/_texture.scss */
+/* line 138, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .badge-inverse:hover {
   background-color: #0e0e0e;
   color: white;
 }
 
-/* line 167, ../sass/_texture.scss */
+/* line 167, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .well {
   min-height: 21px;
   padding: 11px;
@@ -760,17 +760,17 @@ a:hover, a:active {
   -moz-box-shadow: inset 0 1px 10px #d6dbe1;
   box-shadow: inset 0 1px 10px #d6dbe1;
 }
-/* line 176, ../sass/_texture.scss */
+/* line 176, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .well p:last-child {
   margin-bottom: 0;
 }
 
-/* line 180, ../sass/_texture.scss */
+/* line 180, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .well-large {
   padding: 22px;
 }
 
-/* line 183, ../sass/_texture.scss */
+/* line 183, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_texture.scss */
 .well-small {
   padding: 6px;
   -webkit-border-top-right-radius: 2px;
@@ -809,7 +809,7 @@ or mobile software). */
   font-style: normal;
 }
 
-/* line 29, ../sass/_font-awesome.scss */
+/* line 29, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   display: inline;
@@ -822,13 +822,13 @@ or mobile software). */
   background-repeat: repeat;
 }
 
-/* line 40, ../sass/_font-awesome.scss */
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li[class^="icon-"],
 li[class*=" icon-"] {
   display: block;
 }
 
-/* line 44, ../sass/_font-awesome.scss */
+/* line 44, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: FontAwesome;
@@ -838,7 +838,7 @@ li[class*=" icon-"] {
   text-decoration: inherit;
 }
 
-/* line 52, ../sass/_font-awesome.scss */
+/* line 52, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
@@ -846,46 +846,46 @@ a [class*=" icon-"] {
 }
 
 /* makes the font 33% larger relative to the icon container */
-/* line 57, ../sass/_font-awesome.scss */
+/* line 57, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-large:before {
   vertical-align: top;
   font-size: 4/3em;
 }
 
-/* line 63, ../sass/_font-awesome.scss */
+/* line 63, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .btn [class^="icon-"],
 .btn [class*=" icon-"] {
   /* keeps button heights with and without icons the same */
   line-height: .9em;
 }
 
-/* line 70, ../sass/_font-awesome.scss */
+/* line 70, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li [class^="icon-"],
 li [class*=" icon-"] {
   display: inline-block;
   width: 1.25em;
   text-align: center;
 }
-/* line 76, ../sass/_font-awesome.scss */
+/* line 76, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li .icon-large[class^="icon-"],
 li .icon-large[class*=" icon-"] {
   /* 1.5 increased font size for icon-large * 1.25 width */
   width: 1.875em;
 }
 
-/* line 82, ../sass/_font-awesome.scss */
+/* line 82, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li[class^="icon-"],
 li[class*=" icon-"] {
   margin-left: 0;
   list-style-type: none;
 }
-/* line 86, ../sass/_font-awesome.scss */
+/* line 86, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li[class^="icon-"]:before,
 li[class*=" icon-"]:before {
   text-indent: -2em;
   text-align: center;
 }
-/* line 90, ../sass/_font-awesome.scss */
+/* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 li[class^="icon-"].icon-large:before,
 li[class*=" icon-"].icon-large:before {
   text-indent: -4/3em;
@@ -893,709 +893,709 @@ li[class*=" icon-"].icon-large:before {
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
-/* line 98, ../sass/_font-awesome.scss */
+/* line 98, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-glass:before {
   content: "\f000";
 }
 
-/* line 99, ../sass/_font-awesome.scss */
+/* line 99, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-music:before {
   content: "\f001";
 }
 
-/* line 100, ../sass/_font-awesome.scss */
+/* line 100, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-search:before {
   content: "\f002";
 }
 
-/* line 101, ../sass/_font-awesome.scss */
+/* line 101, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-envelope:before {
   content: "\f003";
 }
 
-/* line 102, ../sass/_font-awesome.scss */
+/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-heart:before {
   content: "\f004";
 }
 
-/* line 103, ../sass/_font-awesome.scss */
+/* line 103, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-star:before {
   content: "\f005";
 }
 
-/* line 104, ../sass/_font-awesome.scss */
+/* line 104, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-star-empty:before {
   content: "\f006";
 }
 
-/* line 105, ../sass/_font-awesome.scss */
+/* line 105, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-user:before {
   content: "\f007";
 }
 
-/* line 106, ../sass/_font-awesome.scss */
+/* line 106, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-film:before {
   content: "\f008";
 }
 
-/* line 107, ../sass/_font-awesome.scss */
+/* line 107, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-th-large:before {
   content: "\f009";
 }
 
-/* line 108, ../sass/_font-awesome.scss */
+/* line 108, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-th:before {
   content: "\f00a";
 }
 
-/* line 109, ../sass/_font-awesome.scss */
+/* line 109, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-th-list:before {
   content: "\f00b";
 }
 
-/* line 110, ../sass/_font-awesome.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-ok:before {
   content: "\f00c";
 }
 
-/* line 111, ../sass/_font-awesome.scss */
+/* line 111, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-remove:before {
   content: "\f00d";
 }
 
-/* line 112, ../sass/_font-awesome.scss */
+/* line 112, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-zoom-in:before {
   content: "\f00e";
 }
 
-/* line 113, ../sass/_font-awesome.scss */
+/* line 113, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-zoom-out:before {
   content: "\f010";
 }
 
-/* line 114, ../sass/_font-awesome.scss */
+/* line 114, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-off:before {
   content: "\f011";
 }
 
-/* line 115, ../sass/_font-awesome.scss */
+/* line 115, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-signal:before {
   content: "\f012";
 }
 
-/* line 116, ../sass/_font-awesome.scss */
+/* line 116, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-cog:before {
   content: "\f013";
 }
 
-/* line 117, ../sass/_font-awesome.scss */
+/* line 117, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-trash:before {
   content: "\f014";
 }
 
-/* line 118, ../sass/_font-awesome.scss */
+/* line 118, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-home:before {
   content: "\f015";
 }
 
-/* line 119, ../sass/_font-awesome.scss */
+/* line 119, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-file:before {
   content: "\f016";
 }
 
-/* line 120, ../sass/_font-awesome.scss */
+/* line 120, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-time:before {
   content: "\f017";
 }
 
-/* line 121, ../sass/_font-awesome.scss */
+/* line 121, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-road:before {
   content: "\f018";
 }
 
-/* line 122, ../sass/_font-awesome.scss */
+/* line 122, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-download-alt:before {
   content: "\f019";
 }
 
-/* line 123, ../sass/_font-awesome.scss */
+/* line 123, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-download:before {
   content: "\f01a";
 }
 
-/* line 124, ../sass/_font-awesome.scss */
+/* line 124, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-upload:before {
   content: "\f01b";
 }
 
-/* line 125, ../sass/_font-awesome.scss */
+/* line 125, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-inbox:before {
   content: "\f01c";
 }
 
-/* line 126, ../sass/_font-awesome.scss */
+/* line 126, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-play-circle:before {
   content: "\f01d";
 }
 
-/* line 127, ../sass/_font-awesome.scss */
+/* line 127, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-repeat:before {
   content: "\f01e";
 }
 
 /* \f020 is not a valid unicode character. all shifted one down */
-/* line 129, ../sass/_font-awesome.scss */
+/* line 129, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-refresh:before {
   content: "\f021";
 }
 
-/* line 130, ../sass/_font-awesome.scss */
+/* line 130, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-list-alt:before {
   content: "\f022";
 }
 
-/* line 131, ../sass/_font-awesome.scss */
+/* line 131, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-lock:before {
   content: "\f023";
 }
 
-/* line 132, ../sass/_font-awesome.scss */
+/* line 132, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-flag:before {
   content: "\f024";
 }
 
-/* line 133, ../sass/_font-awesome.scss */
+/* line 133, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-headphones:before {
   content: "\f025";
 }
 
-/* line 134, ../sass/_font-awesome.scss */
+/* line 134, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-volume-off:before {
   content: "\f026";
 }
 
-/* line 135, ../sass/_font-awesome.scss */
+/* line 135, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-volume-down:before {
   content: "\f027";
 }
 
-/* line 136, ../sass/_font-awesome.scss */
+/* line 136, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-volume-up:before {
   content: "\f028";
 }
 
-/* line 137, ../sass/_font-awesome.scss */
+/* line 137, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-qrcode:before {
   content: "\f029";
 }
 
-/* line 138, ../sass/_font-awesome.scss */
+/* line 138, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-barcode:before {
   content: "\f02a";
 }
 
-/* line 139, ../sass/_font-awesome.scss */
+/* line 139, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-tag:before {
   content: "\f02b";
 }
 
-/* line 140, ../sass/_font-awesome.scss */
+/* line 140, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-tags:before {
   content: "\f02c";
 }
 
-/* line 141, ../sass/_font-awesome.scss */
+/* line 141, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-book:before {
   content: "\f02d";
 }
 
-/* line 142, ../sass/_font-awesome.scss */
+/* line 142, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-bookmark:before {
   content: "\f02e";
 }
 
-/* line 143, ../sass/_font-awesome.scss */
+/* line 143, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-print:before {
   content: "\f02f";
 }
 
-/* line 144, ../sass/_font-awesome.scss */
+/* line 144, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-camera:before {
   content: "\f030";
 }
 
-/* line 145, ../sass/_font-awesome.scss */
+/* line 145, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-font:before {
   content: "\f031";
 }
 
-/* line 146, ../sass/_font-awesome.scss */
+/* line 146, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-bold:before {
   content: "\f032";
 }
 
-/* line 147, ../sass/_font-awesome.scss */
+/* line 147, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-italic:before {
   content: "\f033";
 }
 
-/* line 148, ../sass/_font-awesome.scss */
+/* line 148, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-text-height:before {
   content: "\f034";
 }
 
-/* line 149, ../sass/_font-awesome.scss */
+/* line 149, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-text-width:before {
   content: "\f035";
 }
 
-/* line 150, ../sass/_font-awesome.scss */
+/* line 150, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-align-left:before {
   content: "\f036";
 }
 
-/* line 151, ../sass/_font-awesome.scss */
+/* line 151, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-align-center:before {
   content: "\f037";
 }
 
-/* line 152, ../sass/_font-awesome.scss */
+/* line 152, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-align-right:before {
   content: "\f038";
 }
 
-/* line 153, ../sass/_font-awesome.scss */
+/* line 153, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-align-justify:before {
   content: "\f039";
 }
 
-/* line 154, ../sass/_font-awesome.scss */
+/* line 154, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-list:before {
   content: "\f03a";
 }
 
-/* line 155, ../sass/_font-awesome.scss */
+/* line 155, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-indent-left:before {
   content: "\f03b";
 }
 
-/* line 156, ../sass/_font-awesome.scss */
+/* line 156, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-indent-right:before {
   content: "\f03c";
 }
 
-/* line 157, ../sass/_font-awesome.scss */
+/* line 157, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-facetime-video:before {
   content: "\f03d";
 }
 
-/* line 158, ../sass/_font-awesome.scss */
+/* line 158, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-picture:before {
   content: "\f03e";
 }
 
-/* line 159, ../sass/_font-awesome.scss */
+/* line 159, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-pencil:before {
   content: "\f040";
 }
 
-/* line 160, ../sass/_font-awesome.scss */
+/* line 160, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-map-marker:before {
   content: "\f041";
 }
 
-/* line 161, ../sass/_font-awesome.scss */
+/* line 161, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-adjust:before {
   content: "\f042";
 }
 
-/* line 162, ../sass/_font-awesome.scss */
+/* line 162, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-tint:before {
   content: "\f043";
 }
 
-/* line 163, ../sass/_font-awesome.scss */
+/* line 163, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-edit:before {
   content: "\f044";
 }
 
-/* line 164, ../sass/_font-awesome.scss */
+/* line 164, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-share:before {
   content: "\f045";
 }
 
-/* line 165, ../sass/_font-awesome.scss */
+/* line 165, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-check:before {
   content: "\f046";
 }
 
-/* line 166, ../sass/_font-awesome.scss */
+/* line 166, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-move:before {
   content: "\f047";
 }
 
-/* line 167, ../sass/_font-awesome.scss */
+/* line 167, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-step-backward:before {
   content: "\f048";
 }
 
-/* line 168, ../sass/_font-awesome.scss */
+/* line 168, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-fast-backward:before {
   content: "\f049";
 }
 
-/* line 169, ../sass/_font-awesome.scss */
+/* line 169, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-backward:before {
   content: "\f04a";
 }
 
-/* line 170, ../sass/_font-awesome.scss */
+/* line 170, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-play:before {
   content: "\f04b";
 }
 
-/* line 171, ../sass/_font-awesome.scss */
+/* line 171, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-pause:before {
   content: "\f04c";
 }
 
-/* line 172, ../sass/_font-awesome.scss */
+/* line 172, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-stop:before {
   content: "\f04d";
 }
 
-/* line 173, ../sass/_font-awesome.scss */
+/* line 173, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-forward:before {
   content: "\f04e";
 }
 
-/* line 175, ../sass/_font-awesome.scss */
+/* line 175, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-fast-forward:before {
   content: "\f050";
 }
 
-/* line 176, ../sass/_font-awesome.scss */
+/* line 176, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-step-forward:before {
   content: "\f051";
 }
 
-/* line 177, ../sass/_font-awesome.scss */
+/* line 177, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-eject:before {
   content: "\f052";
 }
 
-/* line 178, ../sass/_font-awesome.scss */
+/* line 178, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-chevron-left:before {
   content: "\f053";
 }
 
-/* line 179, ../sass/_font-awesome.scss */
+/* line 179, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-chevron-right:before {
   content: "\f054";
 }
 
-/* line 180, ../sass/_font-awesome.scss */
+/* line 180, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-plus-sign:before {
   content: "\f055";
 }
 
-/* line 181, ../sass/_font-awesome.scss */
+/* line 181, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-minus-sign:before {
   content: "\f056";
 }
 
-/* line 182, ../sass/_font-awesome.scss */
+/* line 182, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-remove-sign:before {
   content: "\f057";
 }
 
-/* line 183, ../sass/_font-awesome.scss */
+/* line 183, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-ok-sign:before {
   content: "\f058";
 }
 
-/* line 184, ../sass/_font-awesome.scss */
+/* line 184, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-question-sign:before {
   content: "\f059";
 }
 
-/* line 185, ../sass/_font-awesome.scss */
+/* line 185, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-info-sign:before {
   content: "\f05a";
 }
 
-/* line 186, ../sass/_font-awesome.scss */
+/* line 186, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-screenshot:before {
   content: "\f05b";
 }
 
-/* line 187, ../sass/_font-awesome.scss */
+/* line 187, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-remove-circle:before {
   content: "\f05c";
 }
 
-/* line 188, ../sass/_font-awesome.scss */
+/* line 188, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-ok-circle:before {
   content: "\f05d";
 }
 
-/* line 189, ../sass/_font-awesome.scss */
+/* line 189, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-ban-circle:before {
   content: "\f05e";
 }
 
-/* line 191, ../sass/_font-awesome.scss */
+/* line 191, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-arrow-left:before {
   content: "\f060";
 }
 
-/* line 192, ../sass/_font-awesome.scss */
+/* line 192, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-arrow-right:before {
   content: "\f061";
 }
 
-/* line 193, ../sass/_font-awesome.scss */
+/* line 193, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-arrow-up:before {
   content: "\f062";
 }
 
-/* line 194, ../sass/_font-awesome.scss */
+/* line 194, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-arrow-down:before {
   content: "\f063";
 }
 
-/* line 195, ../sass/_font-awesome.scss */
+/* line 195, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-share-alt:before {
   content: "\f064";
 }
 
-/* line 196, ../sass/_font-awesome.scss */
+/* line 196, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-resize-full:before {
   content: "\f065";
 }
 
-/* line 197, ../sass/_font-awesome.scss */
+/* line 197, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-resize-small:before {
   content: "\f066";
 }
 
-/* line 198, ../sass/_font-awesome.scss */
+/* line 198, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-plus:before {
   content: "\f067";
 }
 
-/* line 199, ../sass/_font-awesome.scss */
+/* line 199, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-minus:before {
   content: "\f068";
 }
 
-/* line 200, ../sass/_font-awesome.scss */
+/* line 200, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-asterisk:before {
   content: "\f069";
 }
 
-/* line 201, ../sass/_font-awesome.scss */
+/* line 201, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-exclamation-sign:before {
   content: "\f06a";
 }
 
-/* line 202, ../sass/_font-awesome.scss */
+/* line 202, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-gift:before {
   content: "\f06b";
 }
 
-/* line 203, ../sass/_font-awesome.scss */
+/* line 203, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-leaf:before {
   content: "\f06c";
 }
 
-/* line 204, ../sass/_font-awesome.scss */
+/* line 204, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-fire:before {
   content: "\f06d";
 }
 
-/* line 205, ../sass/_font-awesome.scss */
+/* line 205, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-eye-open:before {
   content: "\f06e";
 }
 
-/* line 206, ../sass/_font-awesome.scss */
+/* line 206, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-eye-close:before {
   content: "\f070";
 }
 
-/* line 207, ../sass/_font-awesome.scss */
+/* line 207, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-warning-sign:before {
   content: "\f071";
 }
 
-/* line 208, ../sass/_font-awesome.scss */
+/* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-plane:before {
   content: "\f072";
 }
 
-/* line 209, ../sass/_font-awesome.scss */
+/* line 209, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-calendar:before {
   content: "\f073";
 }
 
-/* line 210, ../sass/_font-awesome.scss */
+/* line 210, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-random:before {
   content: "\f074";
 }
 
-/* line 211, ../sass/_font-awesome.scss */
+/* line 211, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-comment:before {
   content: "\f075";
 }
 
-/* line 212, ../sass/_font-awesome.scss */
+/* line 212, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-magnet:before {
   content: "\f076";
 }
 
-/* line 213, ../sass/_font-awesome.scss */
+/* line 213, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-chevron-up:before {
   content: "\f077";
 }
 
-/* line 214, ../sass/_font-awesome.scss */
+/* line 214, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-chevron-down:before {
   content: "\f078";
 }
 
-/* line 215, ../sass/_font-awesome.scss */
+/* line 215, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-retweet:before {
   content: "\f079";
 }
 
-/* line 216, ../sass/_font-awesome.scss */
+/* line 216, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-shopping-cart:before {
   content: "\f07a";
 }
 
-/* line 217, ../sass/_font-awesome.scss */
+/* line 217, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-folder-close:before {
   content: "\f07b";
 }
 
-/* line 218, ../sass/_font-awesome.scss */
+/* line 218, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-folder-open:before {
   content: "\f07c";
 }
 
-/* line 219, ../sass/_font-awesome.scss */
+/* line 219, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-resize-vertical:before {
   content: "\f07d";
 }
 
-/* line 220, ../sass/_font-awesome.scss */
+/* line 220, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-resize-horizontal:before {
   content: "\f07e";
 }
 
-/* line 221, ../sass/_font-awesome.scss */
+/* line 221, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-bar-chart:before {
   content: "\f080";
 }
 
-/* line 222, ../sass/_font-awesome.scss */
+/* line 222, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-twitter-sign:before {
   content: "\f081";
 }
 
-/* line 223, ../sass/_font-awesome.scss */
+/* line 223, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-facebook-sign:before {
   content: "\f082";
 }
 
-/* line 224, ../sass/_font-awesome.scss */
+/* line 224, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-camera-retro:before {
   content: "\f083";
 }
 
-/* line 225, ../sass/_font-awesome.scss */
+/* line 225, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-key:before {
   content: "\f084";
 }
 
-/* line 226, ../sass/_font-awesome.scss */
+/* line 226, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-cogs:before {
   content: "\f085";
 }
 
-/* line 227, ../sass/_font-awesome.scss */
+/* line 227, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-comments:before {
   content: "\f086";
 }
 
-/* line 228, ../sass/_font-awesome.scss */
+/* line 228, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-thumbs-up:before {
   content: "\f087";
 }
 
-/* line 229, ../sass/_font-awesome.scss */
+/* line 229, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-thumbs-down:before {
   content: "\f088";
 }
 
-/* line 230, ../sass/_font-awesome.scss */
+/* line 230, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-star-half:before {
   content: "\f089";
 }
 
-/* line 231, ../sass/_font-awesome.scss */
+/* line 231, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-heart-empty:before {
   content: "\f08a";
 }
 
-/* line 232, ../sass/_font-awesome.scss */
+/* line 232, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-signout:before {
   content: "\f08b";
 }
 
-/* line 233, ../sass/_font-awesome.scss */
+/* line 233, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-linkedin-sign:before {
   content: "\f08c";
 }
 
-/* line 234, ../sass/_font-awesome.scss */
+/* line 234, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-pushpin:before {
   content: "\f08d";
 }
 
-/* line 235, ../sass/_font-awesome.scss */
+/* line 235, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-external-link:before {
   content: "\f08e";
 }
 
-/* line 236, ../sass/_font-awesome.scss */
+/* line 236, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-signin:before {
   content: "\f090";
 }
 
-/* line 237, ../sass/_font-awesome.scss */
+/* line 237, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-trophy:before {
   content: "\f091";
 }
 
-/* line 238, ../sass/_font-awesome.scss */
+/* line 238, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-github-sign:before {
   content: "\f092";
 }
 
-/* line 239, ../sass/_font-awesome.scss */
+/* line 239, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-upload-alt:before {
   content: "\f093";
 }
 
-/* line 240, ../sass/_font-awesome.scss */
+/* line 240, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_font-awesome.scss */
 .icon-lemon:before {
   content: "\f094";
 }
 
 /* Elements =================================================== */
-/* line 14, ../sass/_elements.scss */
+/* line 14, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 hr {
   display: block;
   margin: 1em 0;
@@ -1606,7 +1606,7 @@ hr {
   border-bottom: 1px solid white;
 }
 
-/* line 25, ../sass/_elements.scss */
+/* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 img {
   max-width: 100%;
   border-width: 0;
@@ -1614,20 +1614,20 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 31, ../sass/_elements.scss */
+/* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 36, ../sass/_elements.scss */
+/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 figure {
   margin-bottom: 1.5em;
 }
-/* line 39, ../sass/_elements.scss */
+/* line 39, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 figure img {
   margin-bottom: 0.375em;
 }
-/* line 42, ../sass/_elements.scss */
+/* line 42, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 figure figcaption {
   display: block;
   font-weight: normal;
@@ -1636,19 +1636,19 @@ figure figcaption {
   color: gray;
 }
 
-/* line 51, ../sass/_elements.scss */
+/* line 51, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 .list-bordered {
   list-style-type: none;
   margin: 0 0 1.5em 0;
   padding: 0;
 }
-/* line 56, ../sass/_elements.scss */
+/* line 56, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 .list-bordered li {
   margin-bottom: 0.375em;
   padding-bottom: 0.375em;
   border-bottom: 1px dashed #c7ced6;
 }
-/* line 61, ../sass/_elements.scss */
+/* line 61, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_elements.scss */
 .list-bordered li:last-child {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -1656,11 +1656,11 @@ figure figcaption {
 }
 
 /* Forms =================================================== */
-/* line 12, ../sass/_forms.scss */
+/* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form {
   margin: 0 0 1.5em 0;
 }
-/* line 15, ../sass/_forms.scss */
+/* line 15, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors {
   border: solid 1px #E58E8E;
   padding: 10px;
@@ -1671,28 +1671,28 @@ form #errors {
   background: #ffe6e6 url(../img/cancel_48.png) no-repeat 405px center;
   display: none;
 }
-/* line 23, ../sass/_forms.scss */
+/* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors li {
   padding: 2px;
   list-style: none;
 }
-/* line 28, ../sass/_forms.scss */
+/* line 28, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors li:before {
   content: ' - ';
 }
-/* line 32, ../sass/_forms.scss */
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors #info {
   font-weight: bold;
 }
-/* line 36, ../sass/_forms.scss */
+/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors #info:before {
   content: '';
 }
-/* line 40, ../sass/_forms.scss */
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #errors .visible {
   display: block;
 }
-/* line 45, ../sass/_forms.scss */
+/* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #success {
   border: solid 1px #83D186;
   padding: 25px 10px;
@@ -1704,26 +1704,26 @@ form #success {
   font-weight: bold;
   display: none;
 }
-/* line 54, ../sass/_forms.scss */
+/* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form #success .visible {
   display: block;
 }
-/* line 59, ../sass/_forms.scss */
+/* line 59, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form input [type=submit] {
   float: right;
 }
-/* line 62, ../sass/_forms.scss */
+/* line 62, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form input [type=submit] :active {
   position: relative;
   top: 1px;
 }
-/* line 68, ../sass/_forms.scss */
+/* line 68, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form fieldset {
   margin-bottom: 1.5em;
   padding: 0;
   border-width: 0;
 }
-/* line 73, ../sass/_forms.scss */
+/* line 73, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form legend {
   display: block;
   width: 100%;
@@ -1735,28 +1735,28 @@ form legend {
   border-bottom: 1px solid #8c9bab;
   white-space: normal;
 }
-/* line 84, ../sass/_forms.scss */
+/* line 84, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form legend small {
   font-size: 14px;
   font-size: 1.4rem;
   color: #bfbfbf;
 }
-/* line 89, ../sass/_forms.scss */
+/* line 89, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form p {
   margin-bottom: 0.75em;
 }
-/* line 92, ../sass/_forms.scss */
+/* line 92, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form ul {
   list-style-type: none;
   margin: 0 0 1.5em 0;
   padding: 0;
 }
-/* line 97, ../sass/_forms.scss */
+/* line 97, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form br {
   display: none;
 }
 
-/* line 106, ../sass/_forms.scss */
+/* line 106, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label,
 input,
 button,
@@ -1768,7 +1768,7 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 114, ../sass/_forms.scss */
+/* line 114, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input,
 button,
 select,
@@ -1780,7 +1780,7 @@ textarea {
   box-sizing: border-box;
 }
 
-/* line 118, ../sass/_forms.scss */
+/* line 118, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label {
   display: block;
   margin-bottom: 0.188em;
@@ -1788,14 +1788,14 @@ label {
   color: black;
   cursor: pointer;
 }
-/* line 127, ../sass/_forms.scss */
+/* line 127, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label input,
 label textarea,
 label select {
   display: block;
 }
 
-/* line 133, ../sass/_forms.scss */
+/* line 133, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input,
 textarea,
 select {
@@ -1807,24 +1807,24 @@ select {
   border: 1px solid #8c9bab;
   color: black;
 }
-/* line 142, ../sass/_forms.scss */
+/* line 142, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:hover,
 textarea:hover,
 select:hover {
   border-color: #586879;
 }
 
-/* line 146, ../sass/_forms.scss */
+/* line 146, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .input-mini {
   width: 60px;
 }
 
-/* line 149, ../sass/_forms.scss */
+/* line 149, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .input-small {
   width: 90px;
 }
 
-/* line 154, ../sass/_forms.scss */
+/* line 154, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="image"],
 input[type="checkbox"],
 input[type="radio"] {
@@ -1853,7 +1853,7 @@ input[type="radio"] {
   border: 0 \9;
 }
 
-/* line 166, ../sass/_forms.scss */
+/* line 166, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -1865,7 +1865,7 @@ input[type="radio"] {
   *height: 13px;
 }
 
-/* line 172, ../sass/_forms.scss */
+/* line 172, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="image"] {
   border: 0;
   -webkit-box-shadow: none;
@@ -1873,7 +1873,7 @@ input[type="image"] {
   box-shadow: none;
 }
 
-/* line 176, ../sass/_forms.scss */
+/* line 176, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="file"] {
   width: auto;
   padding: initial;
@@ -1886,7 +1886,7 @@ input[type="file"] {
   box-shadow: none;
 }
 
-/* line 187, ../sass/_forms.scss */
+/* line 187, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -1896,7 +1896,7 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 194, ../sass/_forms.scss */
+/* line 194, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select,
 input[type="file"] {
   height: 28px;
@@ -1904,7 +1904,7 @@ input[type="file"] {
   line-height: 28px;
 }
 
-/* line 199, ../sass/_forms.scss */
+/* line 199, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select {
   width: auto;
   background-color: white;
@@ -1912,13 +1912,13 @@ select {
   font-size: 1.3rem;
 }
 
-/* line 205, ../sass/_forms.scss */
+/* line 205, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 208, ../sass/_forms.scss */
+/* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 textarea {
   resize: vertical;
   overflow: auto;
@@ -1927,26 +1927,26 @@ textarea {
   vertical-align: top;
 }
 
-/* line 214, ../sass/_forms.scss */
+/* line 214, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="hidden"] {
   display: none;
 }
 
-/* line 218, ../sass/_forms.scss */
+/* line 218, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio,
 .checkbox {
   padding-left: 18px;
   font-weight: normal;
 }
 
-/* line 223, ../sass/_forms.scss */
+/* line 223, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -18px;
 }
 
-/* line 228, ../sass/_forms.scss */
+/* line 228, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
@@ -1955,13 +1955,13 @@ input[type="hidden"] {
   vertical-align: middle;
 }
 
-/* line 235, ../sass/_forms.scss */
+/* line 235, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
 }
 
-/* line 245, ../sass/_forms.scss */
+/* line 245, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -1974,7 +1974,7 @@ textarea[readonly] {
   cursor: not-allowed;
 }
 
-/* line 252, ../sass/_forms.scss */
+/* line 252, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:focus,
 textarea:focus {
   border-color: #2d353e, 40%;
@@ -1982,7 +1982,7 @@ textarea:focus {
   outline: thin dotted \9;
 }
 
-/* line 260, ../sass/_forms.scss */
+/* line 260, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus,
@@ -1992,38 +1992,38 @@ select:focus {
   box-shadow: none;
 }
 
-/* line 263, ../sass/_forms.scss */
+/* line 263, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 ::-webkit-input-placeholder {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 266, ../sass/_forms.scss */
+/* line 266, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:-moz-placeholder {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 272, ../sass/_forms.scss */
+/* line 272, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-block,
 .help-inline {
   color: gray;
 }
 
-/* line 275, ../sass/_forms.scss */
+/* line 275, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-block {
   display: block;
   margin-bottom: 0.75em;
 }
 
-/* line 279, ../sass/_forms.scss */
+/* line 279, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-inline {
   display: inline-block;
   vertical-align: middle;
   padding-left: 5px;
 }
 
-/* line 288, ../sass/_forms.scss */
+/* line 288, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline input,
 .form-inline textarea,
 .form-inline select {
@@ -2031,12 +2031,12 @@ input:-moz-placeholder {
   margin-bottom: 0;
 }
 
-/* line 292, ../sass/_forms.scss */
+/* line 292, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline label {
   display: inline-block;
 }
 
-/* line 297, ../sass/_forms.scss */
+/* line 297, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline .radio,
 .form-inline .checkbox,
 .form-inline .radio {
@@ -2045,7 +2045,7 @@ input:-moz-placeholder {
   vertical-align: middle;
 }
 
-/* line 303, ../sass/_forms.scss */
+/* line 303, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline .radio input[type="radio"],
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
@@ -2053,7 +2053,7 @@ input:-moz-placeholder {
   margin-right: 3px;
 }
 
-/* line 312, ../sass/_forms.scss */
+/* line 312, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search input,
 .form-search textarea,
 .form-search select {
@@ -2061,7 +2061,7 @@ input:-moz-placeholder {
   margin-bottom: 0;
 }
 
-/* line 316, ../sass/_forms.scss */
+/* line 316, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .search-query {
   padding-left: 14px;
   padding-right: 14px;
@@ -2083,12 +2083,12 @@ input:-moz-placeholder {
   background-clip: padding-box;
 }
 
-/* line 322, ../sass/_forms.scss */
+/* line 322, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search label {
   display: inline-block;
 }
 
-/* line 327, ../sass/_forms.scss */
+/* line 327, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .radio,
 .form-search .checkbox,
 .form-inline .radio {
@@ -2097,7 +2097,7 @@ input:-moz-placeholder {
   vertical-align: middle;
 }
 
-/* line 333, ../sass/_forms.scss */
+/* line 333, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .radio input[type="radio"],
 .form-search .checkbox input[type="checkbox"] {
   float: left;
@@ -2106,7 +2106,7 @@ input:-moz-placeholder {
 }
 
 /* Buttons =================================================== */
-/* line 12, ../sass/_buttons.scss */
+/* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn {
   display: inline-block;
   *display: inline;
@@ -2139,23 +2139,23 @@ input:-moz-placeholder {
   cursor: pointer;
   *margin-left: .3em;
 }
-/* line 35, ../sass/_buttons.scss */
+/* line 35, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn:visited, .btn:hover {
   color: #404040;
   text-decoration: none;
 }
 
-/* line 40, ../sass/_buttons.scss */
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 input[type="submit"].btn:hover {
   border-color: #cccccc;
 }
 
-/* line 43, ../sass/_buttons.scss */
+/* line 43, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn:first-child {
   *margin-left: 0;
 }
 
-/* line 48, ../sass/_buttons.scss */
+/* line 48, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-disabled {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
@@ -2163,7 +2163,7 @@ input[type="submit"].btn:hover {
   cursor: default;
 }
 
-/* line 54, ../sass/_buttons.scss */
+/* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-info {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d9edf7), to(#afd9ee));
   background-image: -webkit-linear-gradient(top, #d9edf7, #afd9ee);
@@ -2177,12 +2177,12 @@ input[type="submit"].btn:hover {
   border-bottom-color: #85c5e5;
   color: #247fad;
 }
-/* line 61, ../sass/_buttons.scss */
+/* line 61, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-info:visited, .btn-info:hover {
   color: #247fad;
 }
 
-/* line 67, ../sass/_buttons.scss */
+/* line 67, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-inverse {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414141), to(#272727));
   background-image: -webkit-linear-gradient(top, #414141, #272727);
@@ -2196,12 +2196,12 @@ input[type="submit"].btn:hover {
   border-bottom-color: #0e0e0e;
   color: white;
 }
-/* line 74, ../sass/_buttons.scss */
+/* line 74, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-inverse:visited, .btn-inverse:hover {
   color: white;
 }
 
-/* line 80, ../sass/_buttons.scss */
+/* line 80, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-primary {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d353e), to(#181c20));
   background-image: -webkit-linear-gradient(top, #2d353e, #181c20);
@@ -2215,12 +2215,12 @@ input[type="submit"].btn:hover {
   border-bottom-color: #020203;
   color: white;
 }
-/* line 87, ../sass/_buttons.scss */
+/* line 87, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-primary:visited, .btn-primary:hover {
   color: white;
 }
 
-/* line 93, ../sass/_buttons.scss */
+/* line 93, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-success {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bb75b), to(#449b44));
   background-image: -webkit-linear-gradient(top, #5bb75b, #449b44);
@@ -2234,7 +2234,7 @@ input[type="submit"].btn:hover {
   border-bottom-color: #347834;
 }
 
-/* line 100, ../sass/_buttons.scss */
+/* line 100, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-warning {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#faa732), to(#f39106));
   background-image: -webkit-linear-gradient(top, #faa732, #f39106);
@@ -2248,7 +2248,7 @@ input[type="submit"].btn:hover {
   border-bottom-color: #c17305;
 }
 
-/* line 107, ../sass/_buttons.scss */
+/* line 107, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-extlarge {
   padding: 11px 22px;
   font-size: 21px;
@@ -2270,13 +2270,13 @@ input[type="submit"].btn:hover {
   background-clip: padding-box;
 }
 
-/* line 112, ../sass/_buttons.scss */
+/* line 112, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn.btn-large {
   *padding-top: 7px;
   *padding-bottom: 7px;
 }
 
-/* line 116, ../sass/_buttons.scss */
+/* line 116, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-large {
   padding: 11px 22px;
   font-size: 14px;
@@ -2299,7 +2299,7 @@ input[type="submit"].btn:hover {
   background-clip: padding-box;
 }
 
-/* line 122, ../sass/_buttons.scss */
+/* line 122, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-small {
   padding: 6px 10px;
   font-size: 11px;
@@ -2307,7 +2307,7 @@ input[type="submit"].btn:hover {
   line-height: 16px;
 }
 
-/* line 127, ../sass/_buttons.scss */
+/* line 127, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-mini {
   padding: 3px 5px;
   font-size: 11px;
@@ -2315,7 +2315,7 @@ input[type="submit"].btn:hover {
   line-height: 14px;
 }
 
-/* line 132, ../sass/_buttons.scss */
+/* line 132, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group {
   position: relative;
   *zoom: 1;
@@ -2323,7 +2323,7 @@ input[type="submit"].btn:hover {
   margin-bottom: 1.5em;
 }
 
-/* line 138, ../sass/_buttons.scss */
+/* line 138, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group .btn {
   position: relative;
   float: left;
@@ -2345,7 +2345,7 @@ input[type="submit"].btn:hover {
   background-clip: padding-box;
 }
 
-/* line 144, ../sass/_buttons.scss */
+/* line 144, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group .btn:first-child {
   margin-left: 0;
   -moz-border-radius-topleft: 2px;
@@ -2356,7 +2356,7 @@ input[type="submit"].btn:hover {
   border-bottom-left-radius: 2px;
 }
 
-/* line 148, ../sass/_buttons.scss */
+/* line 148, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group .btn:last-child {
   -moz-border-radius-topright: 2px;
   -webkit-border-top-right-radius: 2px;
@@ -2366,7 +2366,7 @@ input[type="submit"].btn:hover {
   border-bottom-right-radius: 2px;
 }
 
-/* line 151, ../sass/_buttons.scss */
+/* line 151, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group .btn.large:first-child {
   margin-left: 0;
   -moz-border-radius-topleft: 4px;
@@ -2377,7 +2377,7 @@ input[type="submit"].btn:hover {
   border-bottom-left-radius: 4px;
 }
 
-/* line 155, ../sass/_buttons.scss */
+/* line 155, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-group .btn.large:last-child {
   -moz-border-radius-topright: 4px;
   -webkit-border-top-right-radius: 4px;
@@ -2387,14 +2387,14 @@ input[type="submit"].btn:hover {
   border-bottom-right-radius: 4px;
 }
 
-/* line 158, ../sass/_buttons.scss */
+/* line 158, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-toolbar {
   clear: both;
   margin-top: 0.75em;
   margin-bottom: 0.75em;
 }
 
-/* line 163, ../sass/_buttons.scss */
+/* line 163, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss */
 .btn-toolbar .btn-group {
   display: inline-block;
   *display: inline;
@@ -2402,7 +2402,7 @@ input[type="submit"].btn:hover {
 }
 
 /* Tables =================================================== */
-/* line 12, ../sass/_tables.scss */
+/* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table {
   width: 100%;
   max-width: 100%;
@@ -2411,7 +2411,7 @@ table {
   border-spacing: 0;
   background-color: transparent;
 }
-/* line 21, ../sass/_tables.scss */
+/* line 21, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table th,
 table td {
   padding: 8px;
@@ -2422,26 +2422,26 @@ table td {
   line-height: 1.5em;
   text-align: left;
 }
-/* line 29, ../sass/_tables.scss */
+/* line 29, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table th {
   font-weight: bold;
 }
-/* line 32, ../sass/_tables.scss */
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table thead th {
   vertical-align: bottom;
 }
-/* line 38, ../sass/_tables.scss */
+/* line 38, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
   border-top: 0;
 }
-/* line 41, ../sass/_tables.scss */
+/* line 41, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table tbody + tbody {
   border-top: 2px solid #8c9bab;
 }
-/* line 45, ../sass/_tables.scss */
+/* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table tbody tr td,
 table tbody tr th {
   -webkit-transition: background-color 0.25s 0 linear;
@@ -2450,45 +2450,45 @@ table tbody tr th {
   -o-transition: background-color 0.25s 0 linear;
   transition: background-color 0.25s 0 linear;
 }
-/* line 49, ../sass/_tables.scss */
+/* line 49, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 table tbody tr:hover td,
 table tbody tr:hover th {
   background-color: #a9b4c1;
 }
 
-/* line 58, ../sass/_tables.scss */
+/* line 58, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 .table-condensed th,
 .table-condensed td {
   padding: 4px 5px;
 }
 
-/* line 64, ../sass/_tables.scss */
+/* line 64, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 .table-bordered {
   border: 1px solid #8c9bab;
   border-left: 0;
   border-collapse: separate;
   *border-collapse: collapsed;
 }
-/* line 71, ../sass/_tables.scss */
+/* line 71, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 .table-bordered th,
 .table-bordered td {
   border-left: 1px solid #8c9bab;
 }
-/* line 76, ../sass/_tables.scss */
+/* line 76, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 .table-bordered thead:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child th,
 .table-bordered tbody:first-child tr:first-child td {
   border-top: 0;
 }
 
-/* line 85, ../sass/_tables.scss */
+/* line 85, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_tables.scss */
 .table-striped tbody tr:nth-child(odd) td,
 .table-striped tbody tr:nth-child(odd) th {
   background-color: #c7ced6;
 }
 
 /* Page =================================================== */
-/* line 14, ../sass/_site.scss */
+/* line 14, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #accessibility {
   margin: 0px;
   padding: 0px;
@@ -2513,12 +2513,12 @@ table tbody tr:hover th {
   -moz-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 24, ../sass/_site.scss */
+/* line 24, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #accessibility li {
   display: inline;
 }
 
-/* line 29, ../sass/_site.scss */
+/* line 29, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 body {
   margin: 0px;
   padding: 0;
@@ -2531,13 +2531,13 @@ body {
   font-size: 1.6rem;
 }
 
-/* line 40, ../sass/_site.scss */
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .container {
   max-width: 980px;
   margin: 0 auto;
 }
 
-/* line 45, ../sass/_site.scss */
+/* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 html {
   background: white;
   font-size: 62.5%;
@@ -2555,7 +2555,7 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/* line 62, ../sass/_site.scss */
+/* line 62, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner {
   *zoom: 1;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d353e), to(#181c20));
@@ -2568,50 +2568,50 @@ html {
   background-repeat: repeat-x;
   color: #e6e6e6;
 }
-/* line 208, ../sass/_mixins.scss */
+/* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 #banner:before, #banner:after {
   display: table;
   content: "";
 }
-/* line 211, ../sass/_mixins.scss */
+/* line 211, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
 #banner:after {
   clear: both;
 }
-/* line 67, ../sass/_site.scss */
+/* line 67, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a {
   color: inherit;
 }
-/* line 71, ../sass/_site.scss */
+/* line 71, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a:hover {
   color: #bfbfbf;
   text-decoration: none;
 }
 
-/* line 77, ../sass/_site.scss */
+/* line 77, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo {
   padding: 0px 80px;
   width: 175px;
   height: 60px;
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
 }
-/* line 83, ../sass/_site.scss */
+/* line 83, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo:hover {
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
   cursor: hand;
 }
 
-/* line 90, ../sass/_site.scss */
+/* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #pagebanner h6 {
   padding: 5px;
   margin-bottom: 0;
   color: #1a1a1a;
 }
-/* line 95, ../sass/_site.scss */
+/* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #pagebanner h6 ul {
   margin: 0;
 }
 
-/* line 102, ../sass/_site.scss */
+/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -2627,45 +2627,61 @@ html {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 110, ../sass/_site.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section h4 {
   margin-bottom: 0.4em;
 }
 
-/* line 115, ../sass/_site.scss */
+/* line 115, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
 
-/* line 10, ../sass/_page.scss */
+/* line 10, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about {
   display: table;
 }
-/* line 12, ../sass/_page.scss */
+/* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about #myphoto {
   padding: 10px;
   padding-top: 0px;
 }
-/* line 17, ../sass/_page.scss */
+/* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #about .btn {
   margin: 5px 10px;
   float: right;
 }
 
-/* line 23, ../sass/_page.scss */
+/* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #linklist {
   font-size: 20px;
   font-size: 2rem;
   color: #013568;
 }
 
-/* line 28, ../sass/_page.scss */
+/* line 28, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#projects li {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#projects li figure {
+  float: left;
+}
+/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
+#projects li p {
+  float: left;
+}
+
+/* line 41, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #quickcontact {
   padding-top: 50px;
   width: 600px;
   margin: auto;
 }
-/* line 33, ../sass/_page.scss */
+/* line 46, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #quickcontact #message {
   height: 120px;
 }
@@ -2712,13 +2728,13 @@ html {
 /* websockets */
 /* webworkers */
 @media only screen and (min-width: 240px) {
-  /* line 4, ../sass/_320.scss */
+  /* line 4, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #about #myphoto {
     margin: auto;
     float: left;
   }
 
-  /* line 11, ../sass/_320.scss */
+  /* line 11, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #logo {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2728,91 +2744,91 @@ html {
     margin: auto;
   }
 
-  /* line 17, ../sass/_320.scss */
+  /* line 17, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #mainmenu {
     display: table;
     width: 100%;
     margin-bottom: 0.75em;
   }
-  /* line 22, ../sass/_320.scss */
+  /* line 22, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #mainmenu ul {
     display: table-row;
   }
-  /* line 25, ../sass/_320.scss */
+  /* line 25, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #mainmenu ul li {
     display: table-cell;
     text-align: center;
   }
 
-  /* line 32, ../sass/_320.scss */
+  /* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss */
   #quickcontact {
     width: 100%;
   }
 }
 @media only screen and (min-width: 600px) {
-  /* line 3, ../sass/_600.scss */
+  /* line 3, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #about {
     width: 98%;
     float: right;
   }
-  /* line 7, ../sass/_600.scss */
+  /* line 7, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #about #myphoto {
     float: right;
   }
 
-  /* line 12, ../sass/_600.scss */
+  /* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #banner .container {
     display: block;
   }
 
-  /* line 16, ../sass/_600.scss */
+  /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #projects {
     float: left;
     width: 78%;
     height: 600px;
   }
 
-  /* line 22, ../sass/_600.scss */
+  /* line 22, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #links {
     float: right;
     height: 600px;
     width: 18%;
   }
 
-  /* line 28, ../sass/_600.scss */
+  /* line 28, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #logo {
     float: left;
     margin: auto;
     position: inherit;
   }
 
-  /* line 34, ../sass/_600.scss */
+  /* line 34, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #mainmenu {
     display: block;
     float: right;
     width: auto;
     margin: auto;
   }
-  /* line 40, ../sass/_600.scss */
+  /* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #mainmenu li {
     display: block;
     float: left;
     margin: 1.5em 0.75em;
   }
 
-  /* line 47, ../sass/_600.scss */
+  /* line 47, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact {
     width: 600px;
   }
-  /* line 50, ../sass/_600.scss */
+  /* line 50, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #email {
     width: 200px;
   }
-  /* line 54, ../sass/_600.scss */
+  /* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #name {
     width: 150px;
   }
-  /* line 58, ../sass/_600.scss */
+  /* line 58, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #subject {
     width: 250px;
   }
