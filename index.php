@@ -13,7 +13,9 @@
 <div id="links" class="section">
 	<h4>Links</h4>
 	<ul id="linklist">
-		<li></li>
+		<li><a href="">LinkedIn</a></li>
+		<li><a href="">Resume</a></li>
+		<li><a href=""></a></li>
 	</ul>
 </div>
 
@@ -22,23 +24,28 @@
 	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student studying Computer Science at Oregon 
-		State University with a focus on usability engineering. Networking is evolving at an amazing 
-		speend and the development of interfaces to facilitate communication
+		State University with a focus on usability engineering. The computer network and service industry
+		is evolving at an amazing pace and the development of interfaces to facilitate use of these 
+		technologies for the benefit of everyone is important 
 		<br/><br/>
-		I am  interested in web and mobile application development and I have experience developing 
-		applications using HTML, CSS, Javascript, Ruby and PHP in conjuction with AJAX, MySQL 
-		and relational database's to track and store information for organizations. 
+		I am  interested in web and mobile application development for consumer and organizational 
+		applcations and I have experience developing web applications using HTML, CSS, Javascript, 
+		Ruby and PHP in conjuction with AJAX, MySQL and relational database's to track, manage and 
+		store information for groups and organizations. 
 	</div>
-	<a href="<?php echo $sitepath;?>/about" class="btn">Quick Contact</a>
-	<form id="quickcontact">
+	<a href="javascript:" class="btn">Quick Contact</a>
+	<form id="quickcontact" class="contactform">
+		<?php 
+			$scripts-[] = "contactform.js";
+		?>
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"/>
 		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required/>
+		<input type="email" id="email" name="email" required="required"/>
 		<label for="subject">Subject:</label>
-		<input type="text" id="subject" name="subject" required/>
-		<textarea id="message" name="message" rows="20" required></textarea>
-		<input type="submit"/>
+		<input type="text" id="subject" name="subject" required="required"/>
+		<textarea id="message" name="message" rows="20" required="required"></textarea>
+		<button type="submit"/>
 	</form>
 </div>
 

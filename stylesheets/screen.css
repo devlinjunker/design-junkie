@@ -2703,17 +2703,16 @@ html {
   /* line 47, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact {
     width: 600px;
-    display: none;
   }
-  /* line 51, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 50, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #email {
     width: 200px;
   }
-  /* line 55, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #name {
     width: 150px;
   }
-  /* line 59, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  /* line 58, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
   #quickcontact #subject {
     width: 250px;
   }
