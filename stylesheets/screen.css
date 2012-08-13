@@ -1629,12 +1629,65 @@ form {
   margin: 0 0 1.5em 0;
 }
 /* line 15, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors {
+  border: solid 1px #E58E8E;
+  padding: 10px;
+  margin: 25px 0px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #ffe6e6 url(../img/cancel_48.png) no-repeat 405px center;
+  display: none;
+}
+/* line 23, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors li {
+  padding: 2px;
+  list-style: none;
+}
+/* line 28, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors li:before {
+  content: ' - ';
+}
+/* line 32, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors #info {
+  font-weight: bold;
+}
+/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors #info:before {
+  content: '';
+}
+/* line 40, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #errors .visible {
+  display: block;
+}
+/* line 45, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #success {
+  border: solid 1px #83D186;
+  padding: 25px 10px;
+  margin: 25px 0px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #d3edd3 url(../img/accepted_48.png) no-repeat 405px center;
+  font-weight: bold;
+  display: none;
+}
+/* line 54, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form #success .visible {
+  display: block;
+}
+/* line 59, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+form input [type=submit]:active {
+  position: relative;
+  top: 1px;
+}
+/* line 64, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form fieldset {
   margin-bottom: 1.5em;
   padding: 0;
   border-width: 0;
 }
-/* line 20, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 69, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form legend {
   display: block;
   width: 100%;
@@ -1646,28 +1699,28 @@ form legend {
   border-bottom: 1px solid #8c9bab;
   white-space: normal;
 }
-/* line 31, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 80, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form legend small {
   font-size: 14px;
   font-size: 1.4rem;
   color: #bfbfbf;
 }
-/* line 36, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 85, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form p {
   margin-bottom: 0.75em;
 }
-/* line 39, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 88, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form ul {
   list-style-type: none;
   margin: 0 0 1.5em 0;
   padding: 0;
 }
-/* line 44, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 93, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 form br {
   display: none;
 }
 
-/* line 52, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label,
 input,
 button,
@@ -1679,7 +1732,7 @@ textarea {
   *vertical-align: middle;
 }
 
-/* line 60, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input,
 button,
 select,
@@ -1691,7 +1744,7 @@ textarea {
   box-sizing: border-box;
 }
 
-/* line 64, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 114, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label {
   display: block;
   margin-bottom: 0.188em;
@@ -1699,14 +1752,14 @@ label {
   color: black;
   cursor: pointer;
 }
-/* line 73, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 123, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 label input,
 label textarea,
 label select {
   display: block;
 }
 
-/* line 79, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 129, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input,
 textarea,
 select {
@@ -1718,24 +1771,24 @@ select {
   border: 1px solid #8c9bab;
   color: black;
 }
-/* line 88, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 138, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:hover,
 textarea:hover,
 select:hover {
   border-color: #586879;
 }
 
-/* line 92, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 142, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .input-mini {
   width: 60px;
 }
 
-/* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 145, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .input-small {
   width: 90px;
 }
 
-/* line 100, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 150, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="image"],
 input[type="checkbox"],
 input[type="radio"] {
@@ -1764,7 +1817,7 @@ input[type="radio"] {
   border: 0 \9;
 }
 
-/* line 112, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 162, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -1776,7 +1829,7 @@ input[type="radio"] {
   *height: 13px;
 }
 
-/* line 118, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 168, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="image"] {
   border: 0;
   -webkit-box-shadow: none;
@@ -1784,7 +1837,7 @@ input[type="image"] {
   box-shadow: none;
 }
 
-/* line 122, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 172, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="file"] {
   width: auto;
   padding: initial;
@@ -1797,7 +1850,7 @@ input[type="file"] {
   box-shadow: none;
 }
 
-/* line 133, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 183, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
@@ -1807,7 +1860,7 @@ input[type="submit"] {
   *overflow: visible;
 }
 
-/* line 140, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 190, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select,
 input[type="file"] {
   height: 28px;
@@ -1815,7 +1868,7 @@ input[type="file"] {
   line-height: 28px;
 }
 
-/* line 145, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 195, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select {
   width: auto;
   background-color: white;
@@ -1823,13 +1876,13 @@ select {
   font-size: 1.3rem;
 }
 
-/* line 151, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 201, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 154, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 204, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 textarea {
   resize: vertical;
   overflow: auto;
@@ -1838,26 +1891,26 @@ textarea {
   vertical-align: top;
 }
 
-/* line 160, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 210, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="hidden"] {
   display: none;
 }
 
-/* line 164, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 214, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio,
 .checkbox {
   padding-left: 18px;
   font-weight: normal;
 }
 
-/* line 169, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 219, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio input[type="radio"],
 .checkbox input[type="checkbox"] {
   float: left;
   margin-left: -18px;
 }
 
-/* line 174, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 224, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio.inline,
 .checkbox.inline {
   display: inline-block;
@@ -1866,13 +1919,13 @@ input[type="hidden"] {
   vertical-align: middle;
 }
 
-/* line 181, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 231, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .radio.inline + .radio.inline,
 .checkbox.inline + .checkbox.inline {
   margin-left: 10px;
 }
 
-/* line 191, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 241, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[disabled],
 select[disabled],
 textarea[disabled],
@@ -1885,7 +1938,7 @@ textarea[readonly] {
   cursor: not-allowed;
 }
 
-/* line 198, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 248, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:focus,
 textarea:focus {
   border-color: #2d353e, 40%;
@@ -1893,7 +1946,7 @@ textarea:focus {
   outline: thin dotted \9;
 }
 
-/* line 206, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 256, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus,
@@ -1903,38 +1956,38 @@ select:focus {
   box-shadow: none;
 }
 
-/* line 209, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 259, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 ::-webkit-input-placeholder {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 212, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 262, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 input:-moz-placeholder {
   font-size: 14px;
   font-size: 1.4rem;
 }
 
-/* line 218, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 268, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-block,
 .help-inline {
   color: gray;
 }
 
-/* line 221, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 271, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-block {
   display: block;
   margin-bottom: 0.75em;
 }
 
-/* line 225, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 275, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .help-inline {
   display: inline-block;
   vertical-align: middle;
   padding-left: 5px;
 }
 
-/* line 234, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 284, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline input,
 .form-inline textarea,
 .form-inline select {
@@ -1942,12 +1995,12 @@ input:-moz-placeholder {
   margin-bottom: 0;
 }
 
-/* line 238, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 288, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline label {
   display: inline-block;
 }
 
-/* line 243, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 293, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline .radio,
 .form-inline .checkbox,
 .form-inline .radio {
@@ -1956,7 +2009,7 @@ input:-moz-placeholder {
   vertical-align: middle;
 }
 
-/* line 249, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 299, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-inline .radio input[type="radio"],
 .form-inline .checkbox input[type="checkbox"] {
   float: left;
@@ -1964,7 +2017,7 @@ input:-moz-placeholder {
   margin-right: 3px;
 }
 
-/* line 258, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 308, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search input,
 .form-search textarea,
 .form-search select {
@@ -1972,7 +2025,7 @@ input:-moz-placeholder {
   margin-bottom: 0;
 }
 
-/* line 262, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 312, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .search-query {
   padding-left: 14px;
   padding-right: 14px;
@@ -1994,12 +2047,12 @@ input:-moz-placeholder {
   background-clip: padding-box;
 }
 
-/* line 268, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 318, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search label {
   display: inline-block;
 }
 
-/* line 273, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 323, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .radio,
 .form-search .checkbox,
 .form-inline .radio {
@@ -2008,7 +2061,7 @@ input:-moz-placeholder {
   vertical-align: middle;
 }
 
-/* line 279, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
+/* line 329, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss */
 .form-search .radio input[type="radio"],
 .form-search .checkbox input[type="checkbox"] {
   float: left;

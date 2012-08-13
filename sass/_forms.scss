@@ -12,6 +12,55 @@
 form {
 margin : 0 0 $baselineheight 0;
 
+#errors{
+	border:solid 1px #E58E8E;  
+	padding:10px;  
+	margin:25px 0px;  
+	@include rounded(8px);  
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;  
+	display:none;  
+
+	li {  
+	    padding:2px;  
+	    list-style:none;      
+	}  
+  
+	li:before {  
+    	content: ' - ';      
+	}  
+  
+	#info {  
+    	font-weight:bold;  
+	}  
+  
+	#info:before {  
+    	content: '';      
+	}  
+
+	.visible{
+		display:block;
+	}
+}
+
+#success{
+	border:solid 1px #83D186;  
+    padding:25px 10px;  
+    margin:25px 0px;  
+    @include rounded(8px); 
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;  
+    font-weight:bold;  
+    display:none;  
+
+    .visible{
+    	display: block;
+    }
+}
+
+input [type=submit]:active{
+	position:relative;
+	top: 1px;
+}
+
 fieldset {
 margin-bottom : $baselineheight;
 padding : 0;
@@ -43,6 +92,7 @@ padding : 0; }
 
 br {
 display : none; }
+
 }
 
 label,

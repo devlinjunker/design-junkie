@@ -37,15 +37,8 @@
 	<form id="quickcontact" class="contactform">
 		<?php 
 			$scripts[] = "contactform.js";
+			require(contactform.php);
 		?>
-		<label for="name">Name:</label>
-		<input type="text" id="name" name="name"/>
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" required="required"/>
-		<label for="subject">Subject:</label>
-		<input type="text" id="subject" name="subject" required="required"/>
-		<textarea id="message" name="message" rows="20" required="required"></textarea>
-		<button type="submit"/>
 	</form>
 </div>
 
