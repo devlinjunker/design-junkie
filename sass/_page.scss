@@ -27,7 +27,8 @@
 
 #projects li{
 	@include rounded(6px);
-	border: 1px solid black;
+	border: 1px solid $grey;
+	margin: 20px 0px;
 
 	figure{
 		float: left;
