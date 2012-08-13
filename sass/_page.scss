@@ -20,6 +20,11 @@
 	}
 }
 
+#linklist{
+	@include font-size(20);
+	color: $linkcolor;
+}
+
 #quickcontact{
 	padding-top:50px;
 	width: 600px;

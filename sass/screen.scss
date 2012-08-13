@@ -59,10 +59,10 @@
 
 // 6. LAYOUT 			==============================
 
-// Site wide styles (html, body)
+// Site wide styles (html, body, banner, navigation, content, contentinfo)
 @import "site";
 
-// Page level layout styles (banner, navigation, content, contentinfo)
+// Page level layout and specifics
 @import "page";
 
 //  7. VENDOR-SPECIFIC 		==============================

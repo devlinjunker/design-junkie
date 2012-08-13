@@ -1,28 +1,47 @@
 <?php $pagename="home"; ?>
 <?php include 'header.htm'; ?>
 
-<div id="projects" class="section">
+<section id="projects" class="section">
 	<h4>Projects</h4>
 	
-	<ul>
-		<li>#1</li>
-		<li>#2</li>
-	</ul>
+	<ol>
+		<li>
+			<article>
+				<h5>Energy Efficiency Center Web Database</h5>
+				<figure>
+					<img src=""></img>
+				</figure>
+				<p>Interactive demo of the Web Database interface I developed for the EEC to track
+					projects and manage employee work load.</p>
+			</article>
+		</li>
+		<li>
+			<article>
+				<h5>CS 275 Final Project</h5>
+				<figure>
+					<img src=""></img>
+				</figure>
+				<p>Final project for my Web Database Course. Task Management Application to track 
+					progress and time spent, developed with HTML, Javascript PHP, MySQL and 
+					Relational Databases. </p>
+			</article>
+		</li>
+	</ol>
 	
 	<h4>Labs</h4>
-</div>
+</section>
 
-<div id="links" class="section">
+<aside id="links" class="section">
 	<h4>Links</h4>
 	
 	<ul id="linklist">
+		<li><a href="">Twitter</a></li>
 		<li><a href="">LinkedIn</a></li>
-		<li><a href="">Resume</a></li>
-		<li><a href=""></a></li>
+		<li><a href="">My Resume</a></li>
 	</ul>
-</div>
+</aside>
 
-<div id="about" class="section">
+<aside id="about" class="section">
 	<h4>About Me</h4>
 	
 	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
@@ -47,7 +66,7 @@
 			include("contactform.php");
 		?>
 	</form>
-</div>
+</aside>
 
 	
 <?php include 'footer.htm' ?>

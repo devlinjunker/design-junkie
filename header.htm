@@ -64,21 +64,29 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <!-- Prevents links from opening in mobile Safari -->
 <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
 <meta http-equiv="cleartype" content="on">
+
+<?php
+	$scripts = array();
+?>
 </head>
 <body id="<?php echo $pagename;?>" class="clearfix">
 
 	<header id="banner">
 		<div class="container">
-			<a href="<?php echo $sitepath;?>" id="logo"></a>
-			<ul id="accessibility" class="header">
+			<a  id="logo" href="<?php echo $sitepath;?>"></a>
+			<ul id="accessibility">
 				<li>
-					<a href="#content" title="Skip navigation"><i class="icon-chevron-down"></i></a>
+					<a href="#content" title="Skip navigation">
+						<i class="icon-chevron-down"></i>
+					</a>
 				</li>
 				<li>
-					<a href="#" onclick="window.print(); return false;" title="Open Print Dialog"><i class="icon-print"></i></a>
+					<a href="#" onclick="window.print(); return false;" title="Open Print Dialog">
+						<i class="icon-print"></i>
+					</a>
 				</li>
 			</ul>
-			<nav id="menu">
+			<nav id="mainmenu">
 				<ul>
 					<li><a href="<?php echo $sitepath;?>">Home</a></li>
 					<li><a href="<?php echo $sitepath;?>/projects">Projects </a></li>
@@ -87,16 +95,14 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 				</ul>
 			</nav>
 		</div>
-
-		<?php
-			$scripts = array();
-		?>
 	</header>
 
 	<div id="wrapper" class="container">
-		<header id="pagebanner">
-			<div class="container">
-				<h6 id="ticker" class="section"><ul><li>Testing</li></ul></h6>
-			</div>
-		</header>
+		<aside id="ticker" class="section container">
+				<h6>
+					<ul>
+						<li>Testing</li>
+					</ul>
+				</h6>
+		</aside>
 		<div id="content" class="content clearfix">
