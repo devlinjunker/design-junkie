@@ -2601,13 +2601,13 @@ html {
 }
 
 /* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-#pagebanner h6 {
+#ticker h6 {
   padding: 5px;
   margin-bottom: 0;
   color: #1a1a1a;
 }
 /* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
-#pagebanner h6 ul {
+#ticker h6 ul {
   margin: 0;
 }
 
