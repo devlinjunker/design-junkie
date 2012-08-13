@@ -1,7 +1,7 @@
 <?php $pagename="home"; ?>
 <?php include 'header.htm'; ?>
 
-<section id="content" class="section">
+<section id="articles" class="section">
 	<h4>Projects</h4>
 	
 	<ol id="projects">

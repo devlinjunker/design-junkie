@@ -2777,15 +2777,15 @@ html {
   }
 
   /* line 12, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
-  #banner .container {
-    display: block;
-  }
-
-  /* line 16, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
-  #projects {
+  #articles {
     float: left;
     width: 78%;
     height: 600px;
+  }
+
+  /* line 18, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
+  #banner .container {
+    display: block;
   }
 
   /* line 22, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss */
