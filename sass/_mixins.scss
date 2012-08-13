@@ -220,13 +220,13 @@ overflow : hidden; }
 
 // Hide from visual and speaking browsers
 
-.hidden() {
+.hidden {
 display : none !important;
 visibility : hidden; }
 
 // Hide but maintain layout
 
-.invisible() {
+.invisible {
 visibility : hidden; }
 
 // @include resize(VALUE) (none, both, horizontal, vertical, inherit)
@@ -245,7 +245,7 @@ user-select : $select; }
 
 // Hidden but available to speaking browsers
 
-.visuallyhidden() {
+.visuallyhidden {
 overflow : hidden;
 position : absolute;
 clip : rect(0 0 0 0);
