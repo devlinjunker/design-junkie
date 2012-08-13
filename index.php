@@ -36,7 +36,7 @@
 	<a href="javascript:" class="btn">Quick Contact</a>
 	<form id="quickcontact" class="contactform">
 		<?php 
-			$scripts-[] = "contactform.js";
+			$scripts[] = "contactform.js";
 		?>
 		<label for="name">Name:</label>
 		<input type="text" id="name" name="name"/>
