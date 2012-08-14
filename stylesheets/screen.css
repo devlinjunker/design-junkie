@@ -2541,13 +2541,21 @@ body {
 html {
   background: #e6e6e6;
   font-size: 62.5%;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fffff0), to(white));
+  background-image: -webkit-linear-gradient(top, #fffff0, white);
+  background-color: white;
+  background-image: -moz-linear-gradient(top, #fffff0, white);
+  background-image: -ms-linear-gradient(top, #fffff0, white);
+  background-image: -o-linear-gradient(top, #fffff0, white);
+  background-image: linear-gradient(top, #fffff0, #ffffff);
+  background-repeat: repeat-x;
   -webkit-overflow-scrolling: touch;
   -webkit-tap-highlight-color: #f3f5f6;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 60, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 62, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner {
   *zoom: 1;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d353e), to(#181c20));
@@ -2569,41 +2577,41 @@ html {
 #banner:after {
   clear: both;
 }
-/* line 65, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 67, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a {
   color: inherit;
 }
-/* line 69, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 71, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #banner a:hover {
   color: #bfbfbf;
   text-decoration: none;
 }
 
-/* line 75, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 77, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo {
   padding: 0px 80px;
   width: 175px;
   height: 60px;
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
 }
-/* line 81, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 83, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #logo:hover {
   background: url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
   cursor: hand;
 }
 
-/* line 88, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 90, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #ticker h6 {
   padding: 5px;
   margin-bottom: 0;
   color: #1a1a1a;
 }
-/* line 93, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 95, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #ticker h6 ul {
   margin: 0;
 }
 
-/* line 100, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 102, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section {
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -2619,12 +2627,12 @@ html {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 108, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 110, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 .section h4 {
   margin-bottom: 0.4em;
 }
 
-/* line 113, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
+/* line 115, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
