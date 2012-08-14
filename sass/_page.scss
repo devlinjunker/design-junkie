@@ -29,10 +29,12 @@
 	@include rounded(6px);
 	@include clearfix();
 	@include box-shadow();
-	
+
 	border: 1px solid $grey;
 	margin: 20px 0px;
 	padding: 10px;
+
+	background-color:#ffffe0;
 
 	figure{
 		float: left;
