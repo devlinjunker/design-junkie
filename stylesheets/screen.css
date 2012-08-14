@@ -2664,10 +2664,19 @@ html {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  @includ clearfix();
+  *zoom: 1;
   border: 1px solid gray;
   margin: 20px 0px;
   padding: 10px;
+}
+/* line 208, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
+#projects li:before, #projects li:after {
+  display: table;
+  content: "";
+}
+/* line 211, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss */
+#projects li:after {
+  clear: both;
 }
 /* line 35, C:/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss */
 #projects li figure {

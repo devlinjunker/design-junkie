@@ -27,7 +27,7 @@
 
 #projects li{
 	@include rounded(6px);
-	@includ clearfix();
+	@include clearfix();
 	border: 1px solid $grey;
 	margin: 20px 0px;
 	padding: 10px;
