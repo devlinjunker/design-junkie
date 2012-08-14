@@ -12,7 +12,7 @@
 					<img src=""></img>
 				</figure>
 				<p>Interactive demo of the Web Database interface I developed for the EEC to track
-					projects and manage employee work load.</p>
+					project develoment, time-entry management and employee work load. </p>
 			</article>
 		</li>
 		<li>
@@ -28,7 +28,15 @@
 		</li>
 	</ol>
 	
-	<h4>Labs</h4>
+	<h4>Experiments</h4>
+	<ol id="labs">
+		<li>
+			<figure>
+				<img src=""></img>
+				<caption>Google Map API Contact your Senator</caption>
+			</figure>
+		</li>
+	</ol>
 </section>
 
 <aside id="links" class="section">
@@ -48,14 +56,13 @@
 	
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student studying Computer Science at Oregon 
-		State University with a focus on usability engineering. The computer network and service industry
-		is evolving at an amazing pace and the development of interfaces to facilitate use of these 
-		technologies for the benefit of everyone is important 
+		State University with a focus design and on usability engineering. Computer application and
+		services industries are evolving at a fascinating pace; the development of interfaces to 
+		facilitate streamlined, robust interaction is an exciting and fun field.
 		<br/><br/>
-		I am  interested in web and mobile application development for consumer and organizational 
-		applcations and I have experience developing web applications using HTML, CSS, Javascript, 
-		Ruby and PHP in conjuction with AJAX, MySQL and relational database's to track, manage and 
-		store information for groups and organizations. 
+		I am interested in web and mobile application development. I have experience developing web 
+		applications using HTML, CSS, Javascript, Ruby and PHP in conjuction with AJAX, MySQL and 
+		relational database's to track, manage and store information for organizations. 
 	</div>
 	
 	<a href="javascript:" class="btn">Quick Contact</a>
