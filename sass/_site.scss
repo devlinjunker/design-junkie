@@ -46,8 +46,6 @@ html {
 	background : $bodycolor;
 	font-size : 62.5%;
 
-	@include vertical($lightgrey, $white);
-
 	-webkit-overflow-scrolling : touch;
 	-webkit-tap-highlight-color : lighten($basecolor, 75%);
 	-webkit-text-size-adjust : 100%;
