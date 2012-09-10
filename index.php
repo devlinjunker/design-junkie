@@ -65,9 +65,9 @@
 		relational database's to track, manage and store information for organizations. 
 	</div>
 	
-	<a href="javascript:" class="btn">Quick Contact</a>
+	<a href="javascript:$('#quickcontact').toggle();" class="btn">Quick Contact</a>
 	
-	<form id="quickcontact" class="contactform">
+	<form id="quickcontact" class="contactform" hidden="hidden">
 		<?php 
 			$scripts[] = "contactform.js";
 			include("contactform.php");
