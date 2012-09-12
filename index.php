@@ -7,23 +7,27 @@
 	<ol id="projects">
 		<li>
 			<article>
-				<h5>Energy Efficiency Center Web Database</h5>
 				<figure>
-					<img src=""></img>
+					<img class="square" src="img/projects/eec-project-manager-square.jpg"></img>
 				</figure>
-				<p>Interactive demo of the Web Database interface I developed for the EEC to track
-					project develoment, time-entry management and employee work load. </p>
+				<div class="content-wrapper">
+					<h5>Energy Efficiency Center Web Database</h5>
+					<p>Interactive demo of the Web Database interface I developed for the EEC to track
+						project develoment, time-entry management and employee work load. </p>
+				</div>
 			</article>
 		</li>
 		<li>
 			<article>
-				<h5>CS 275 Final Project</h5>
-				<figure>
-					<img src=""></img>
-				</figure>
-				<p>Final project for my Web Database Course. Task Management Application to track 
-					progress and time spent, developed with HTML, Javascript PHP, MySQL and 
-					Relational Databases. </p>
+					<figure>
+						<img class="square" src="img/projects/project-manager-square.jpg"></img>
+					</figure>
+					<div class="content-wrapper">
+						<h5>CS 275 Final Project</h5>
+						<p>Final project for my Web Database Course. Task Management Application to track 
+							progress and time spent, developed with HTML, Javascript PHP, MySQL and 
+							Relational Databases. </p>
+					</div>
 			</article>
 		</li>
 	</ol>
@@ -32,8 +36,8 @@
 	<ol id="labs">
 		<li>
 			<figure>
-				<img src=""></img>
-				<caption>Google Map API Contact your Senator</caption>
+				<img class="square" src="img/projects/contact-senator-square.jpg"></img>
+				<caption>Contact your Senator Google Map Test</caption>
 			</figure>
 		</li>
 	</ol>

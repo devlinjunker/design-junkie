@@ -57,6 +57,12 @@ html {
 // 2. TYPOGRAPHY 			==============================
 // 3. COLOUR 				==============================
 // 4. TEXTURE 				==============================
+
+img{
+	background-color:#555;
+	padding:5px;
+}
+
 // 5. ELEMENTS 				==============================
 // 6. LAYOUT 				==============================
 #banner{
@@ -87,6 +93,7 @@ html {
 }
 
 #ticker{
+	display: none;
 	h6{
 		padding : 5px;
 		margin-bottom: 0;

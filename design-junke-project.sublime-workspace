@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"colo",
+				"Color picker"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"git comit",
+				"Git: Commit"
+			],
+			[
+				"gitadd",
+				"Git: Add..."
+			],
+			[
+				"git ps",
+				"Git: Push"
+			],
+			[
+				"gita dd",
+				"Git: Add..."
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"gi tpush",
+				"Git: Push"
+			],
+			[
+				"gi tpu",
+				"Git: Push"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Custom Command"
+			],
+			[
+				"gi tc",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git add ",
+				"Git: Add..."
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git ush",
+				"Git: Push"
+			],
+			[
+				"git push	",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Custom Command"
+			],
+			[
+				"GIT CUST",
+				"Git: Custom Command"
+			],
+			[
+				"GIT PUSH",
+				"Git: Push"
+			],
+			[
+				"git custom",
+				"Git: Custom Command"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"git merge",
+				"Git: Merge Branch"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git cus",
+				"Git: Custom Command"
+			],
+			[
+				"git cust",
+				"Git: Custom Command"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git commit ",
+				"Git: Quick Commit"
+			],
+			[
+				"git diff",
+				"Git: Diff All"
+			],
+			[
+				"git di",
+				"Git: Diff Current File"
+			],
+			[
+				"",
+				"Abacus: align selection"
+			],
+			[
+				"build",
+				"Build: Cancel"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"manpage ",
+				"Manpage: Open manual page"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"default",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"controls",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"project save",
+				"Project: Save As"
+			],
+			[
+				"project close",
+				"Project: Close"
+			],
+			[
+				"gitstatus",
+				"Git: Status"
+			],
+			[
+				"git add..",
+				"Git: Add..."
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"git init",
+				"Git: Init"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 214.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/screen.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_site.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_variables.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_320.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_600.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_992.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/js/plugins.js",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/header.htm",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/index.php",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/submitcontact.php",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/contactform.php",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/footer.htm",
+		"/C/wamp/bin/php/php5.4.3/php.ini-production",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_typography.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/projects/index.php",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/js/modernizr-2.5.3-min.js",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/js/helper.js",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/js/script.js",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_buttons.scss",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/.gitignore",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Default/Main.sublime-menu",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Compass Build System/Compass.sublime-build",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/design-junke-project.sublime-project",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/sass/screen.scss",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Compass Build System/sass/screen.scss",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Compass Build System/README.markdown",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Default/Default.sublime-commands",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Devlin/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/responsive-design/320andup.html",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/responsive-design/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.py"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header",
+			"content",
+			"visually",
+			"visible",
+			">\n",
+			"<br/>",
+			"opacity",
+			"black",
+			"h3",
+			"print",
+			"    { \"caption\": \"Project: Add Folder\", \"command\": \"prompt_add_folder\" },\n",
+			"project",
+			"package",
+			"inline",
+			"<sp>",
+			"About",
+			"div",
+			"	<h3>About Me</h3>\n",
+			"dis",
+			"div",
+			"</div>",
+			">\n",
+			"?>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 76.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				".gitignore"
+			],
+			[
+				"js",
+				"js/script.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/design-junke-project.sublime-project"
+			]
+		],
+		"width": 760.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 161.0,
+	"status_bar_visible": true
+}

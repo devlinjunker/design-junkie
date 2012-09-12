@@ -9,14 +9,17 @@
 
 #about{
 	display: table;
-	#myphoto{
-		padding: 10px;
-		padding-top: 0px;
-	}
 
 	.btn{
 		margin: 5px 10px;
 		float:right;
+	}
+}
+
+#labs{
+	figure{
+		float: left;
+		width: 150px;
 	}
 }
 
@@ -36,11 +39,13 @@
 
 	background-color:#FEFEE6;
 
-	figure{
-		float: left;
+	.content-wrapper{
+		padding-top:15px;
+		padding-left:175px;
 	}
 
-	p{
+	figure{
+		width: 150px;
 		float: left;
 	}
 }
