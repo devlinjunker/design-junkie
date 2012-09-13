@@ -109,7 +109,7 @@ img{
 .section{
 	@include drop-shadow();
 	@include rounded(6px);
-	background-color: $lightergrey;
+	//background-color: $lightergrey;
 	margin: 1%; 
 	padding: 10px;
 	@include box-sizing(border-box);

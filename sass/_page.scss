@@ -32,12 +32,12 @@
 	@include rounded(6px);
 	@include clearfix();
 	@include box-shadow();
-
+	
 	border: 1px solid $grey;
 	margin: 20px 0px;
 	padding: 10px;
 
-	background-color:#FEFEE6;
+	background-color: $lightergrey;
 
 	.content-wrapper{
 		padding-top:15px;
@@ -47,6 +47,7 @@
 	figure{
 		width: 150px;
 		float: left;
+		margin-bottom: 0px;
 	}
 }
 
