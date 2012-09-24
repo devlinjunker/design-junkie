@@ -26,6 +26,12 @@
 	}
 }
 
+aside{
+	padding: 10px;
+	margin:1px;
+	box-sizing:border-box;
+}
+
 body {
 	margin : 0px;
 	padding : 0;
@@ -167,16 +173,10 @@ img{
 	}
 }
 
-.section{
-	@include rounded(6px);
-	//background-color: $lightergrey;
-	margin: 1px; 
+section{
 	padding: 10px;
-	@include box-sizing(border-box);
-
-	h4{
-		margin-bottom:0.4em;
-	}
+	margin:1px;
+	box-sizing:border-box;
 }
 
 #wrapper{

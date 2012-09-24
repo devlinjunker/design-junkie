@@ -4,8 +4,8 @@
 	</div>
 	<input type="text" name="search" id="search" placeholder="Search"/>
 	<div id="options" hidden>
-		<label>Projects <input type="radio"/></label>
-		<label>Expiriments <input type="radio"/></label>
-		<label>Both <input type="radio"/></label>
+		<label>Projects <input type="radio" name="searchtype" value="projects" <?php echo ($pagename == "Projects") ? "checked" : ""; ?>/></label>
+		<label>Expiriments <input type="radio" name="searchtype" value="experiments" <?php echo ($pagename == "Experiments") ? "checked" : ""; ?>/></label>
+		<label>Both <input type="radio" name="searchtype" value="both"/></label>
 	</div>
 </form>

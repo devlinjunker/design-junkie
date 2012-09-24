@@ -2,7 +2,7 @@
 <?php include '../header.htm' ?>
 
 <h2 id="pagetitle"><?php echo $pagename;?></h2>
-<div id="formwrapper">
+<section id="contact">
 	<form id="contactform" class="contactform">
 		<?php 
 			$scripts[] = "contactform.js";

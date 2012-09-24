@@ -9,9 +9,13 @@
 	}
 }
 
-#articles{
+section#projects{
 	float: left;
 	width: 80%;
+}
+
+section#labs{
+	float:left;
 }
 
 #banner .container{
@@ -34,6 +38,11 @@
 	}
 }
 
+h4{
+	text-align:left;
+	margin-bottom: 1em;
+}
+
 #lablist{
 
 	li{
@@ -41,6 +50,13 @@
 		margin: auto;
 		height: 275px;
 		vertical-align:top;
+		margin-top: 0px;
+	}
+}
+
+#linklist{
+	li{
+		display:block;
 	}
 }
 

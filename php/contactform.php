@@ -1,43 +1,45 @@
-<?php
-	$FORM = array();
-	$RESPONSE = false;
-
-	if(isset($_SESSION["form_data"])) :
-		$FORM = $_SESSION["form_data"];
-		$RESPONSE = true;
-	endif;
-?>
-
-<ul id="errors" class="<?php echo (($RESPONSE && !$FORM["FORM_OK"]) ? "visible" : ""); ?>">
-	<li id="info"> 
-		There were some problems with your submission:
-	</li>
+<form class="contactform">
 	<?php
-		if(isset($FORM["errors"]) && count($FORM["errors"]) > 0) :
-			foreach($FORM["ERRORS"] AS $ERROR) :
-				echo "<li>$ERROR</li>";
-			endforeach;
+		$FORM = array();
+		$RESPONSE = false;
+
+		if(isset($_SESSION["form_data"])) :
+			$FORM = $_SESSION["form_data"];
+			$RESPONSE = true;
 		endif;
 	?>
-</ul>
 
-<p id="success" class="<?php echo (($RESPONSE && $FORM["FORM_OK"]) ? "visible" : ""); ?>">
-	Success! Thank you for contacting me, I will respond as soon as I can!
-</p>
+	<ul id="errors" class="<?php echo (($RESPONSE && !$FORM["FORM_OK"]) ? "" : "hidden"); ?>">
+		<li id="info"> 
+			There were some problems with your submission:
+		</li>
+		<?php
+			if(isset($FORM["errors"]) && count($FORM["errors"]) > 0) :
+				foreach($FORM["ERRORS"] AS $ERROR) :
+					echo "<li>$ERROR</li>";
+				endforeach;
+			endif;
+		?>
+	</ul>
 
-<label for="name">Name:
-<input type="text" id="name" name="name" required="required"/>
-</label>
+	<p id="success" class="<?php echo (($RESPONSE && $FORM["FORM_OK"]) ? "" : "hidden"); ?>">
+		Success! Thank you for contacting me, I will respond as soon as I can!
+	</p>
 
-<label for="email">Email:
-<input type="email" id="email" name="email" required="required"/>
-</label>
+	<label for="name">Name:
+	<input type="text" id="name" name="name" required="required"/>
+	</label>
 
-<label for="subject">Subject:
-<input type="text" id="subject" name="subject" required="required"/>
-</label>
+	<label for="email">Email:
+	<input type="email" id="email" name="email" required="required"/>
+	</label>
 
-<textarea id="message" name="message" required="required" 
-			min-length="20" placeholder="20 Character Minimum"></textarea>
+	<label for="subject">Subject:
+	<input type="text" id="subject" name="subject" required="required"/>
+	</label>
 
-<input type="submit"/>
+	<textarea id="message" name="message" required="required" 
+				min-length="20" placeholder="20 Character Minimum"></textarea>
+
+	<input type="submit"/>
+</form>

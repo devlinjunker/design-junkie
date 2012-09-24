@@ -2,7 +2,7 @@
 
 #about{
 	#myphoto{
-		margin:auto;
+		margin-right:10px;
 		float: left;
 	}
 
@@ -10,6 +10,28 @@
 
 .contactform{
 	width: 100%;
+}
+
+h4{
+	margin-bottom: 0px;
+	text-align:center;
+}
+
+#lablist{
+	li{
+		margin-top: 20px;
+
+		h6{
+			font-stretch:narrower;
+		}
+	}
+}
+
+#linklist{
+	list-style-type:disc;
+	li{
+		display:inline;
+	}
 }
 
 #logo{

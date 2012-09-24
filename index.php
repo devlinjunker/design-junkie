@@ -1,7 +1,17 @@
 <?php $pagename="Home"; ?>
 <?php include 'header.htm'; ?>
 
-<section id="articles" class="section">
+<aside id="links" class="section">
+	<h4>Links</h4>
+	
+	<ul id="linklist">
+		<li><a href="">Twitter</a></li>
+		<li><a href="">LinkedIn</a></li>
+		<li><a href="">My Resume</a></li>
+	</ul>
+</aside>
+
+<section id="projects" >
 	<h4>Projects</h4>
 	
 	<ol id="projectlist">
@@ -31,6 +41,8 @@
 			</article>
 		</li>
 	</ol>
+</section>
+<section id="labs">
 	
 	<h4>Experiments</h4>
 	<ol id="lablist">
@@ -45,12 +57,12 @@
 		<li>
 			<h6>Bookshare Application</h6>
 			<figure>
-				<img class="square" src="img/projects/contact-senator-square.jpg"></img>
+				<img class="square" src="img/projects/textbook-login-square.jpg"></img>
 			</figure>
-			<p>Created for CS 361 <dfn>Software Engineering 1</dfn> PHP web application with 
-				user login test.</p>
+			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
+				a user login form and database.</p>
 		</li>
-		<li class='invisible'>
+		<li class='hidden'>
 			<h6></h6>
 			<figure>
 				<img class="square" src=""></img>
@@ -59,16 +71,6 @@
 		</li>
 	</ol>
 </section>
-
-<aside id="links" class="section">
-	<h4>Links</h4>
-	
-	<ul id="linklist">
-		<li><a href="">Twitter</a></li>
-		<li><a href="">LinkedIn</a></li>
-		<li><a href="">My Resume</a></li>
-	</ul>
-</aside>
 
 <aside id="about" class="section">
 	<h4>About Me</h4>
