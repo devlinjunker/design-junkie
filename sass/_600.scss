@@ -11,16 +11,41 @@
 
 #articles{
 	float: left;
-	width: 78%;
+	width: 80%;
 }
 
 #banner .container{
 	display: block;
 }
 
+.contactform{
+	width: 600px;
+
+	#email{
+		width: 200px;
+	}
+
+	#name{
+		width: 150px;
+	}
+
+	#subject{
+		width: 250px;
+	}
+}
+
+#lablist{
+
+	li{
+		width:30%;
+		margin: auto;
+		height: 275px;
+		vertical-align:top;
+	}
+}
+
 #links{
 	float: right;
-	height: 600px;
 	width: 18%;
 }
 
@@ -43,20 +68,17 @@
 	}
 }
 
-#quickcontact{
-	width: 600px;
-
-	#email{
-		width: 200px;
+.searchform{
+	input{
+		width:200px;
+		float:right;
 	}
-
-	#name{
-		width: 150px;
+	#options{
+		text-align:right;
+		label{
+			display:inline;
+			text-align:center;
+			margin:0px 2px;
+		}
 	}
-
-	#subject{
-		width: 250px;
-	}
-
-
 }

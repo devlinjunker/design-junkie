@@ -23,6 +23,7 @@ border-bottom : 1px solid $white; }
 // img
 
 img {
+box-sizing:border-box;
 max-width : 100%;
 border-width : 0;
 vertical-align : middle;

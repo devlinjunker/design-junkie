@@ -20,7 +20,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <?php $sitepath = "http://localhost/design-junkie"; ?>
 <meta charset="utf-8">
 
-<title><?php echo $pagetitle." | ".$sitename." | ".$sitedescription; ?></title>
+<title><?php echo $pagename." | ".$sitename." | ".$sitedescription; ?></title>
 
 <meta name="description" content="<?php echo $sitedescription;?>">
 <meta name="author" content="Devlin Junker">
@@ -69,7 +69,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 	$scripts = array();
 ?>
 </head>
-<body id="<?php echo $pagename;?>" class="clearfix">
+<body id="<?php echo strtolower($pagename);?>" class="clearfix">
 
 	<header id="banner">
 		<div class="container">

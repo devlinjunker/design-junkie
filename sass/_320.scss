@@ -8,6 +8,10 @@
 
 }
 
+.contactform{
+	width: 100%;
+}
+
 #logo{
 	@include box-sizing(border-box);
 	display : block;
@@ -29,6 +33,13 @@
 	}
 }
 
-#quickcontact{
-	width: 100%;
+.searchform{
+	padding-right:10px;
+}
+
+#options{
+	margin-right:5px;
+	label{
+		text-align:right;
+	}
 }

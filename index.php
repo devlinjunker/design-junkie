@@ -1,17 +1,17 @@
-<?php $pagename="home"; ?>
+<?php $pagename="Home"; ?>
 <?php include 'header.htm'; ?>
 
 <section id="articles" class="section">
 	<h4>Projects</h4>
 	
-	<ol id="projects">
+	<ol id="projectlist">
 		<li>
 			<article>
-				<figure>
-					<img class="square" src="img/projects/eec-project-manager-square.jpg"></img>
-				</figure>
 				<div class="content-wrapper">
-					<h5>Energy Efficiency Center Web Database</h5>
+					<figure>
+						<img class="square" src="img/projects/eec-project-manager-square.jpg"></img>
+					</figure>
+					<h5>OSU Energy Efficiency Center Web Interface</h5>
 					<p>Interactive demo of the Web Database interface I developed for the EEC to track
 						project develoment, time-entry management and employee work load. </p>
 				</div>
@@ -33,12 +33,29 @@
 	</ol>
 	
 	<h4>Experiments</h4>
-	<ol id="labs">
+	<ol id="lablist">
 		<li>
+			<h6>Contact Senator Map</h6>
 			<figure>
 				<img class="square" src="img/projects/contact-senator-square.jpg"></img>
-				<caption>Contact your Senator Google Map Test</caption>
 			</figure>
+			<p>Google Map API used to create Interactive U.S. Map that shows contact information 
+				for state senators.</p>
+		</li>
+		<li>
+			<h6>Bookshare Application</h6>
+			<figure>
+				<img class="square" src="img/projects/contact-senator-square.jpg"></img>
+			</figure>
+			<p>Created for CS 361 <dfn>Software Engineering 1</dfn> PHP web application with 
+				user login test.</p>
+		</li>
+		<li class='invisible'>
+			<h6></h6>
+			<figure>
+				<img class="square" src=""></img>
+			</figure>
+			<p></p>
 		</li>
 	</ol>
 </section>
@@ -71,12 +88,12 @@
 	
 	<a href="javascript:$('#quickcontact').toggle();" class="btn">Quick Contact</a>
 	
-	<form id="quickcontact" class="contactform" hidden="hidden">
+	<div id="quickcontact" hidden>
 		<?php 
 			$scripts[] = "contactform.js";
-			include("contactform.php");
+			include("php/contactform.php");
 		?>
-	</form>
+	</div>
 </aside>
 
 	
