@@ -2691,43 +2691,42 @@ img {
   padding-left: 5px;
   display: inline;
   float: right;
-  width: 70%;
 }
-/* line 139, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 138, C:/wamp/www/design-junkie/sass/_site.scss */
 #pagetitle #searchwrapper .searchform #options {
   font-size: 16px;
   float: right;
   width: 100%;
 }
-/* line 145, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 144, C:/wamp/www/design-junkie/sass/_site.scss */
 #pagetitle #searchwrapper .searchform input[type=radio] {
   width: 10px;
   display: inline;
   float: none;
 }
-/* line 152, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 151, C:/wamp/www/design-junkie/sass/_site.scss */
 #pagetitle #searchwrapper #search {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
 
-/* line 158, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 157, C:/wamp/www/design-junkie/sass/_site.scss */
 #ticker {
   display: none;
 }
-/* line 160, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 159, C:/wamp/www/design-junkie/sass/_site.scss */
 #ticker h6 {
   padding: 5px;
   margin-bottom: 0;
   color: #1a1a1a;
 }
-/* line 165, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 164, C:/wamp/www/design-junkie/sass/_site.scss */
 #ticker h6 ul {
   margin: 0;
 }
 
-/* line 171, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 170, C:/wamp/www/design-junkie/sass/_site.scss */
 .section {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2739,12 +2738,12 @@ img {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 178, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 177, C:/wamp/www/design-junkie/sass/_site.scss */
 .section h4 {
   margin-bottom: 0.4em;
 }
 
-/* line 183, C:/wamp/www/design-junkie/sass/_site.scss */
+/* line 182, C:/wamp/www/design-junkie/sass/_site.scss */
 #wrapper {
   height: 100%;
 }
@@ -2947,12 +2946,16 @@ img {
   .searchform {
     padding-right: 10px;
   }
+  /* line 39, C:/wamp/www/design-junkie/sass/_320.scss */
+  .searchform #search {
+    width: 75%;
+  }
 
-  /* line 40, C:/wamp/www/design-junkie/sass/_320.scss */
+  /* line 44, C:/wamp/www/design-junkie/sass/_320.scss */
   #options {
     margin-right: 5px;
   }
-  /* line 42, C:/wamp/www/design-junkie/sass/_320.scss */
+  /* line 46, C:/wamp/www/design-junkie/sass/_320.scss */
   #options label {
     text-align: right;
   }
@@ -3032,8 +3035,8 @@ img {
   }
 
   /* line 72, C:/wamp/www/design-junkie/sass/_600.scss */
-  .searchform input {
-    width: 200px;
+  .searchform #search {
+    width: 50%;
     float: right;
   }
   /* line 76, C:/wamp/www/design-junkie/sass/_600.scss */
