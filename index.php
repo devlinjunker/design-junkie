@@ -62,6 +62,14 @@
 			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
 				a user login form and database.</p>
 		</li>
+		<li>
+			<h6>Bookshare Application</h6>
+			<figure>
+				<img class="square" src="img/projects/textbook-login-square.jpg"></img>
+			</figure>
+			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
+				a user login form and database.</p>
+		</li>
 		<li class='hidden'>
 			<h6></h6>
 			<figure>
@@ -75,7 +83,7 @@
 <aside id="about" class="section">
 	<h4>About Me</h4>
 	
-	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
+	<img id="myphoto" src="img/myphoto.jpg"></img>
 	
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student studying Computer Science at Oregon 
@@ -88,7 +96,7 @@
 		relational database's to track, manage and store information for organizations. 
 	</div>
 	
-	<a href="javascript:$('#quickcontact').toggle();" class="btn">Quick Contact</a>
+	<a href="javascript:$('#quickcontact').toggle();$(window).scrollTop($('#quickcontact').position().top)" class="btn">Quick Contact</a>
 	
 	<div id="quickcontact" hidden>
 		<?php 

@@ -64,6 +64,26 @@
 #linklist{
 	@include font-size(13);
 	color: $linkcolor;
+	list-style-type:disc;
+	
+	li{
+		display:inline;
+	}
+}
+
+#mainmenu{
+	display : table;
+	width: 100%;
+	margin-bottom : $baselineheight / 2;
+	
+	ul{
+	display : table-row;
+	
+		li{
+		display : table-cell;
+		text-align : center;
+		}
+	}
 }
 
 #projectlist {	
