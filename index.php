@@ -10,10 +10,10 @@
 		<h4>My Links</h4>
 		
 		<ul id="linklist">
-			<li><a href="">My Resume</a></li>
-			<li><a href="">LinkedIn</a></li>
-			<li><a href="">Twitter</a></li>
-			<li><a href="">Facebook</a></li>
+			<li><a href="resume.pdf">My Resume</a></li>
+			<li><a href="http://www.linkedin.com/pub/devlin-junker/32/32b/497">LinkedIn</a></li>
+			<li><a href="http://twitter.com/devjunker">Twitter</a></li>
+			<li><a href="http://www.facebook.com/devlin.junker">Facebook</a></li>
 		</ul>
 	</div>
 </aside>
@@ -28,7 +28,7 @@
 						<img class="square" src="img/projects/artist-website-square.jpg"></img>
 					</figure>
 					<div class="content-wrapper">
-						<h5><a href="">Northwest Artist's Wordpress Website</a></h5>
+						<h5><a href="">Wordpress Website for Northwest Artist</a></h5>
 						<p> Worpdress website and blog that I was hired to create. Customized theme
 							developed with PHP, HTML and CSS. Wordpress widgets created and edited,  
 							and custom Admin interface for easy blog development and customization.</p>
@@ -57,22 +57,22 @@
 
 	<ol id="lablist">
 		<li>
-			<h6><a href="">Contact Senator Map</a></h6>
+			<h6><a href="../projects/representative-map/">Contact Senator Map</a></h6>
 			<figure>
-				<img class="square" src="img/projects/contact-senator-square.jpg"></img>
+				<a href="../projects/representative-map/"><img class="square" src="img/projects/contact-senator-square.jpg"></img></a>
 			</figure>
 			<p>Google Map API used to create Interactive U.S. Map that shows contact information 
 				for state senators.</p>
-			<a id="view" href="">View Experiment >></a>
+			<a id="view" href="../projects/representative-map/">View Experiment >></a>
 		</li>
 		<li>
-			<h6><a href="">Bookshare Application</a></h6>
+			<h6><a href="../projects/textbook-finder/bookdonation/">Bookshare Application</a></h6>
 			<figure>
-				<img class="square" src="img/projects/textbook-login-square.jpg"></img>
+				<a href="../projects/textbook-finder/bookdonation/"><img class="square" src="img/projects/textbook-login-square.jpg"></img></a>
 			</figure>
 			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
 				a user login form and database.</p>
-			<a id="view" href="">View Experiment >></a>
+			<a id="view" href="../projects/textbook-finder/bookdonation/">View Experiment >></a>
 		</li>
 		<li class='hidden'>
 			<h6><a href=""></a></h6>
@@ -92,13 +92,18 @@
 	
 	<div id="text">
 		My name is Devlin Junker, I'm an undergraduate student studying Computer Science at Oregon 
-		State University with a focus design and on usability engineering. Computer application and
-		services industries are evolving at a fascinating pace; the development of interfaces to 
-		facilitate streamlined, robust interaction is an exciting and fun field.
+		State University with a focus interface and on usability engineering.
 		<br/><br/>
-		I am interested in web and mobile application development. I have experience developing web 
-		applications using HTML, CSS, Javascript, Ruby and PHP in conjuction with AJAX, MySQL and 
-		relational database's to track, manage and store information for organizations. 
+		As the computer application and service industries evolve at a fascinating pace, human-computer 
+		interface's will define the future of interaction and communication. I feel extremely lucky to 
+		be able to take part in this exciting growth and development, and to have the opportunity to help 
+		define that future.
+		<br/><br/>
+		I am specifically interested in web and mobile application development for both consumers and organizations. 
+		Information is a central piece of our life's as we enter the <dfn>information</dfn> age, and applications
+		that help store and track all of the growing amounts of information around us will be important in keeping 
+		people from becoming overwhelmed. I have experience developing web applications using HTML, CSS, Javascript, 
+		Ruby and PHP in conjunction with relational database's to track, manage and store information for organizations. 
 	</div>
 	
 	<a href="javascript:$('#quickcontact').toggle();$(window).scrollTop($('div#quickcontact').position().top)" class="btn">Quick Contact</a>
