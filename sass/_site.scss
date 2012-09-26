@@ -101,62 +101,76 @@ img{
 	padding : 0px 80px;
 	width : 175px;
 	height : 60px; 
-	background : url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
+	background : url(http://web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
 	
 	&:hover{
-		background : url(http://www.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
+		background : url(http://web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
 		cursor : hand;
 	}
 }
 
 #pagetitle{
 	@include clearfix();
-	padding-left:20px;
+	padding-left:0px;
 	padding-top:10px;
+	text-align:center;
 
 	#searchwrapper{
+		padding-top:.5em;
 		@include clearfix();
-		width:42%;
+		display:block;
+		vertical-align:top;
+		width:50%;
+		margin:auto;
+		min-width:200px;
+	}
+
+}
+
+
+.searchform{
+	@include clearfix();
+	margin:auto;
+
+	#advanced{
+		@include clearfix();
 		float:right;
+		display:inline;
+		font-size:16px;
+		margin:5px;
 
-		.searchform{
-			@include clearfix();
-			margin:0px;
-
-			#advanced{
-				@include clearfix();
-				float:right;
-				display:inline;
-				font-size:16px;
-				margin:5px;
-
-				a:hover{
-					text-decoration:none;
-				}
-			}
-
-			#search{
-				padding-left:5px;
-				display:inline;
-				float:right;
-			}
-
-			#options{
-				font-size:16px;
-				float:right;
-				width:100%;
-			}
-
-			input[type=radio]{
-				width:10px;
-				display:inline;
-				float:none;
-			}
+		a:hover{
+			text-decoration:none;
 		}
+	}
 
-		#search{
-			@include rounded();
+	#search{
+		width:200px;
+		padding-left:5px;
+		display:inline;
+		@include rounded();
+	}
+
+	#searchbarwrapper{
+		width:90%;
+		margin:auto;
+		@include clearfix();
+	}
+
+	#options{
+		font-size:16px;
+		float:right;
+		width:100%;
+
+		label{
+			display:inline;
 		}
+	}
+
+	input[type=radio]{
+		width:10px;
+		display:inline;
+		float:none;
 	}
 }
 
@@ -181,6 +195,7 @@ section{
 
 #wrapper{
 	height: 100%;
+	padding:5px;
 }
 // 7. VENDOR-SPECIFIC 		==============================
 // 8. MODERNIZR 			==============================

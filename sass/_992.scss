@@ -1,1 +1,12 @@
 // 992 px (Desktop) width CSS sheet
+.searchform{
+	#search{
+		width:200px;
+	}
+
+	#options{
+		label{
+			display:inline;
+		}
+	}
+}

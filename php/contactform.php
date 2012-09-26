@@ -27,11 +27,15 @@
 	</p>
 
 	<label for="name">Name:
-	<input type="text" id="name" name="name" required="required"/>
+	<input type="text" id="name" name="name" required="required" pattern="[A-z]"/>
 	</label>
 
 	<label for="email">Email:
 	<input type="email" id="email" name="email" required="required"/>
+	</label>
+
+	<label for="phone">Phone Number:
+	<input type="phone" id="phone" name="phone" />
 	</label>
 
 	<label for="subject">Subject:

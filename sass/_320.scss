@@ -8,22 +8,34 @@
 
 }
 
+body#home{
+	section{
+		#more{
+			display:inline;
+			float:right;
+		}
+	}
+}
+
 .contactform{
 	width: 100%;
 }
 
 h4{
-	margin-bottom: 0px;
 	text-align:center;
+	margin-bottom: 1em;
 }
 
 #lablist{
 	li{
-		margin-top: 20px;
-
+		margin-top:10px;
 		h6{
 			font-stretch:narrower;
 		}
+	}
+
+	li:first-child{
+		margin-top:0px;
 	}
 }
 
@@ -34,16 +46,17 @@ h4{
 }
 
 .searchform{
-	padding-right:10px;
 
 	#search{
 		width: 75%;
+		float:right;
+	}
+
+	#options{
+		text-align:right;
+		label{
+			text-align:right;
+		}
 	}
 }
 
-#options{
-	margin-right:5px;
-	label{
-		text-align:right;
-	}
-}

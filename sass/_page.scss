@@ -7,6 +7,10 @@
 
 // ==========================================================
 
+a#view{
+	float:right;
+}
+
 #about{
 	display: table;
 
@@ -14,11 +18,50 @@
 		margin: 5px 10px;
 		float:right;
 	}
+
+	margin-bottom: 30px;
+}
+
+body#home{
+	section{
+		#more{
+			display:none;
+			color:$lightgrey;
+			font-size:.7em;
+			border:1px solid $lightergrey;
+			@include rounded();
+			padding: 3px;
+			position:absolute;
+			right:15px;
+		}
+
+		#more:hover{
+			color: $grey;
+			border:1px solid $lightgrey;
+		}
+	}
+
+	.searchform{
+		width:50%;
+	}
+}
+
+h4{
+	a{
+		color: #000203;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+}
+
+#labs{
+	
 }
 
 #lablist{
 	@include clearfix();
-	margin-bottom: 0px;
+	margin-bottom: 1.5em;
 
 	li{
 		display: inline-block;
@@ -61,13 +104,22 @@
 	}
 }
 
+#links{
+	margin-top:20px;
+}
+
 #linklist{
 	@include font-size(13);
 	color: $linkcolor;
-	list-style-type:disc;
+	list-style:disc inside;
 	
 	li{
 		display:inline;
+		list-style:disc inside;
+	}
+
+	li:before{
+		content: " - ";
 	}
 }
 
@@ -87,7 +139,7 @@
 }
 
 #projectlist {	
-	margin-bottom: 0px;
+	margin-bottom: 1.5em;
 
 	li{
 		@include rounded(6px);
@@ -95,7 +147,7 @@
 		@include box-shadow();
 		
 		border: 1px solid $grey;
-		margin: 20px 0px;
+		margin-top: 20px;
 		padding: 10px;
 
 		background-color: $lightergrey;

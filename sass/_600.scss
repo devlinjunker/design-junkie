@@ -9,17 +9,51 @@
 	}
 }
 
-section#projects{
-	float: left;
-	width: 80%;
-}
-
-section#labs{
-	float:left;
+aside{
+	float: right;
+	width: 28%;
 }
 
 #banner .container{
 	display: block;
+}
+
+body#home{
+	.searchform{
+		width:auto;
+		float:none;
+		#search{
+			width:80%;			
+		}
+
+		#searchbarwrapper{
+			width:90%;
+		}
+	}
+
+	section{
+		margin:1px;
+		#more{
+			display:none;
+			color:$lightgrey;
+			font-size:.7em;
+			border:1px solid $lightergrey;
+			@include rounded();
+			padding: 3px;
+			position:static;
+		}
+	}
+
+	section:hover{
+		@include rounded();
+		border:1px solid $lightgrey;
+		margin:0px;
+
+		#more{
+			display:inline;
+			float:right;
+		}
+	}
 }
 
 .contactform{
@@ -33,6 +67,10 @@ section#labs{
 		width: 150px;
 	}
 
+	#phone{
+		width:200px;
+	}
+
 	#subject{
 		width: 250px;
 	}
@@ -40,29 +78,26 @@ section#labs{
 
 h4{
 	text-align:left;
-	margin-bottom: 1em;
 }
 
 #lablist{
-
 	li{
+		margin-top: 20px;
 		width:30%;
 		margin: 0% 1.7%;
-		height: 275px;
 		vertical-align:top;
 		margin-top: 0px;
 	}
+}
+
+#links{
+	padding-left:15%;
 }
 
 #linklist{
 	li{
 		display:block;
 	}
-}
-
-#links{
-	float: right;
-	width: 18%;
 }
 
 #logo{
@@ -84,17 +119,39 @@ h4{
 	}
 }
 
-.searchform{
-	#search{
-		width:50%;
+#pagetitle{
+	padding-left:20px;
+	text-align:left;
+
+	#searchwrapper{
+		width:48%;
 		float:right;
+		padding-top:0em;
+	}
+}
+
+.searchform{
+	width:60%;
+	padding-right:10px;
+	float:right;
+	#search{
+		width:80%;
 	}
 	#options{
-		text-align:right;
+		padding-right:10px;
 		label{
-			display:inline;
-			text-align:center;
+			display:block;
+			text-align:right;
 			margin:0px 2px;
 		}
 	}
+}
+
+section#projects{
+	float: left;
+	width: 70%;
+}
+
+section#labs{
+	float:left;
 }
