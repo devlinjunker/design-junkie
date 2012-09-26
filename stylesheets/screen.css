@@ -2650,7 +2650,7 @@ img {
   *zoom: 1;
   display: block;
   vertical-align: top;
-  width: 50%;
+  width: 80%;
   margin: auto;
   min-width: 200px;
 }
@@ -2804,7 +2804,7 @@ body#home section #more:hover {
 }
 /* line 44, C:/wamp/www/design-junkie/sass/_page.scss */
 body#home .searchform {
-  width: 50%;
+  width: 80%;
 }
 
 /* line 50, C:/wamp/www/design-junkie/sass/_page.scss */
