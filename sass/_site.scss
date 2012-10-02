@@ -88,7 +88,6 @@ img{
 }
 
 .contactform{
-	padding-top:50px;
 	width: 600px;
 	margin: auto;
 
@@ -101,10 +100,10 @@ img{
 	padding : 0px 80px;
 	width : 175px;
 	height : 60px; 
-	background : url(http://web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 0;
+	background : url(http://web.engr.oregonstate.edu/~junkerd/img/logo-sprite.png) 0 0;
 	
 	&:hover{
-		background : url(http://web.engr.oregonstate.edu/~junkerd/design-junkie/img/logo-sprite.png) 0 61px;
+		background : url(http://web.engr.oregonstate.edu/~junkerd/img/logo-sprite.png) 0 61px;
 		cursor : hand;
 	}
 }

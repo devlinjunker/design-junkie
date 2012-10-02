@@ -17,8 +17,7 @@ margin : 0 0 $baselineheight 0;
 	padding:10px;  
 	margin:25px 0px;  
 	@include rounded(8px);  
-	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;  
-	display:none;  
+	background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;   
 
 	li {  
 	    padding:2px;  
@@ -49,7 +48,6 @@ margin : 0 0 $baselineheight 0;
     @include rounded(8px); 
     background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;  
     font-weight:bold;  
-    display:none;  
 
     .visible{
     	display: block;

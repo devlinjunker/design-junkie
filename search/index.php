@@ -1,13 +1,18 @@
-<?php $pagename="Projects"; ?>
+<?php $pagename="Search"; ?>
 <?php include '../header.htm' ?>
 
 <h2 id="pagetitle"><span><?php echo $pagename;?></span>
 	<div id="searchwrapper">
 		<?php 
+			$scripts[] = "searchpage.js";
 			include("../php/searchform.php");
 		?>
 	</div>
 </h2>
+
+<?php if($_GET['searchtype'] == "projects" || $_GET['searchtype'] == "both"){ ?>
+
+<h4>Projects</h4>
 <div id="projectlist">
 	<ol>
 		<li>
@@ -53,7 +58,45 @@
 		</li>
 	</ol>
 </div>
-<div id="links">
+
+<?php } if($_GET['searchtype'] == "experiments" || $_GET['searchtype'] == "both"){ ?>
+<h4>Experiments</h4>
+<div id="lablist">
+	<ol>
+		<li>
+			<h6><a href="<?php echo $sitepath;?>/projects/representative-map/">Contact Senator Map</a></h6>
+			<figure>
+				<a href="<?php echo $sitepath;?>/projects/representative-map/"><img class="square" src="<?php echo $sitepath;?>/img/projects/contact-senator-square.jpg"></img></a>
+			</figure>
+			<p>Google Map API used to create Interactive U.S. Map that shows contact information 
+				for state senators.</p>
+			<a id="view" href="<?php echo $sitepath;?>/projects/representative-map/">View Experiment >></a>
+		</li>
+		<li>
+			<h6><a href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">Bookshare Application</a></h6>
+			<figure>
+				<a href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/"><img class="square" src="<?php echo $sitepath;?>/img/projects/textbook-login-square.jpg"></img></a>
+			</figure>
+			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
+				a user login form and database.</p>
+			<a id="view" href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">View Experiment >></a>
+		</li>
+		</li>
+		<li class="hidden">
+			<h6><a href=""></a></h6>
+			<figure>
+				<a href=""><img class="square" src=""></img></a>
+			</figure>
+			<p></p>
+			<a id="view" href="">View Experiment >></a>
+		</li>
+	</ol>
+	<ol>
+	</ol>
+</div>
+<?php } ?>
+<div id="noresults">
+	Your search - <strong><?php echo $_GET['query'];?></strong> - did not match any projects or experiments.
 </div>
 	
 
