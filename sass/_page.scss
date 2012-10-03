@@ -11,17 +11,6 @@ a#view{
 	float:right;
 }
 
-#about{
-	display: table;
-
-	.btn{
-		margin: 5px 10px;
-		float:right;
-	}
-
-	margin-bottom: 30px;
-}
-
 body#home{
 	section{
 		#more{
@@ -177,4 +166,15 @@ h4{
 
 #quickcontact{
 	padding-top:50px;
+}
+
+section#about{
+	display: table;
+
+	.btn{
+		margin: 5px 10px;
+		float:right;
+	}
+
+	margin-bottom: 30px;
 }

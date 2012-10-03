@@ -1,14 +1,5 @@
 // 600 px (Tablet Portrait) width CSS sheet
 
-#about{
-	width: 98%;
-	
-	#myphoto{
-		margin-left:10px;
-		float:right;
-	}
-}
-
 aside{
 	float: right;
 	width: 28%;
@@ -144,6 +135,15 @@ h4{
 			text-align:right;
 			margin:0px 2px;
 		}
+	}
+}
+
+section#about{
+	width: 98%;
+	
+	#myphoto{
+		margin-left:10px;
+		float:right;
 	}
 }
 

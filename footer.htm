@@ -1,7 +1,7 @@
 		</div><!-- / content -->
 	</div><!-- /wrapper -->
 
-	<footer role="contentinfo">
+	<footer id="contentinfo">
 		<div class="container">
 			<small>Responsive Design developed By Devlin Junker, using a modified version of the <a href="http://stuffandnonsense.co.uk/projects/320andup/">320 and Up</a> responsive template.</small>
 			<small>Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>. The <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a> webfont, CSS, and SASS files are licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</small>
@@ -13,13 +13,13 @@
 		window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')
 	</script>
 
-	<script src="js/plugins.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/helper.js"></script>
+	<script src="<?php echo $sitepath;?>/js/plugins.js"></script>
+	<script src="<?php echo $sitepath;?>/js/script.js"></script>
+	<script src="<?php echo $sitepath;?>/js/helper.js"></script>
 
 	<?php 
 		foreach( $scripts as $script){
-			echo "<script src='js/$script'></script>";
+			echo "<script src='$sitepath/js/$script'></script>";
 		}
 	?>
 

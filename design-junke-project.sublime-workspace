@@ -8,9 +8,90 @@
 	"buffers":
 	[
 		{
+			"file": "sass/_site.scss",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_page.scss",
+			"settings":
+			{
+				"buffer_size": 2210,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_320.scss",
+			"settings":
+			{
+				"buffer_size": 581,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_600.scss",
+			"settings":
+			{
+				"buffer_size": 1641,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_992.scss",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.htm",
+			"settings":
+			{
+				"buffer_size": 4512,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.htm",
+			"settings":
+			{
+				"buffer_size": 1436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 4478,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about/index.php",
+			"settings":
+			{
+				"buffer_size": 353,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "projects/index.php",
+			"settings":
+			{
+				"buffer_size": 1898,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "labs/index.php",
+			"settings":
+			{
+				"buffer_size": 1457,
 				"line_ending": "Windows"
 			}
 		}
@@ -22,6 +103,22 @@
 		"selected_items":
 		[
 			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git checkout",
+				"Git: Checkout Current File"
+			],
+			[
 				"git push",
 				"Git: Push"
 			],
@@ -30,12 +127,16 @@
 				"Git: Commit"
 			],
 			[
-				"git add",
-				"Git: Add..."
-			],
-			[
 				"git comm",
 				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"gitpull",
+				"Git: Pull"
 			],
 			[
 				"colo",
@@ -94,10 +195,6 @@
 				"Git: Add..."
 			],
 			[
-				"git status",
-				"Git: Status"
-			],
-			[
 				"git stat",
 				"Git: Status"
 			],
@@ -116,10 +213,6 @@
 			[
 				"git push	",
 				"Git: Push"
-			],
-			[
-				"git",
-				"Git: Custom Command"
 			],
 			[
 				"GIT CUST",
@@ -243,6 +336,22 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/design-junkie/footer.htm",
+		"/C/wamp/www/design-junkie/php/searchform.php",
+		"/C/wamp/www/design-junkie/php/contactform.php",
+		"/C/wamp/www/design-junkie/header.htm",
+		"/C/wamp/www/design-junkie/sass/_buttons.scss",
+		"/C/wamp/www/design-junkie/sass/_mixins.scss",
+		"/C/wamp/www/design-junkie/js/plugins.js",
+		"/C/wamp/www/design-junkie/sass/screen.scss",
+		"/C/wamp/www/design-junkie/sass/_elements.scss",
+		"/C/wamp/www/design-junkie/sass/_992.scss",
+		"/C/wamp/www/design-junkie/sass/_site.scss",
+		"/C/wamp/www/design-junkie/img/projects/contact-senator-square.jpg",
+		"/C/wamp/www/design-junkie/img/projects/contact-senator.jpg",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/index.html",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/index.php",
+		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/img/projects/project-manager-square.jpg",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_mixins.scss",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/screen.scss",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_page.scss",
@@ -254,7 +363,6 @@
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/sass/_forms.scss",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/js/plugins.js",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/header.htm",
-		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/index.php",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/submitcontact.php",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/contactform.php",
 		"/C/Users/Devlin/Dropbox/CS Stuff/Web Development/design-junkie/footer.htm",
@@ -297,6 +405,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"square",
+			"=\"\">",
+			"li",
+			"search",
+			"se",
+			"search",
+			"h2",
+			"section",
+			"form",
+			"\"/>\n",
 			"header",
 			"content",
 			"visually",
@@ -337,19 +455,69 @@
 	"groups":
 	[
 		{
-			"sheets":
-			[
-			]
-		},
-		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "sass/_site.scss",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2195,
+								2195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1279.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/_page.scss",
+					"settings":
+					{
+						"buffer_size": 2210,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 63.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_320.scss",
+					"settings":
+					{
+						"buffer_size": 581,
 						"regions":
 						{
 						},
@@ -362,7 +530,226 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sass/_600.scss",
+					"settings":
+					{
+						"buffer_size": 1641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1070,
+								1070
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sass/_992.scss",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "header.htm",
+					"settings":
+					{
+						"buffer_size": 4512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1369,
+								1392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 393.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "footer.htm",
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 4478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1614,
+								1614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 957.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "about/index.php",
+					"settings":
+					{
+						"buffer_size": 353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								136,
+								136
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "projects/index.php",
+					"settings":
+					{
+						"buffer_size": 1898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1829,
+								1829
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "labs/index.php",
+					"settings":
+					{
+						"buffer_size": 1457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -456,6 +843,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 161.0,
+	"side_bar_width": 256.0,
 	"status_bar_visible": true
 }
