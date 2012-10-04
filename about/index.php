@@ -3,7 +3,7 @@
 
 <h2 id="pagetitle"><?php echo $pagename;?></h2>
 <section id="info">
-	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg"></img>
+	<img id="myphoto" src="<?php echo $sitepath;?>/img/myphoto.jpg" alt="My Picture"/>
 	<strong>Hi, My name is Devlin Junker,</strong> I'm an undergraduate student studying Computer Science at Oregon 
 	State University with a focus on usability engineering and interface development.
 	<br/><br/>
@@ -19,7 +19,7 @@
 	<?php 
 		include("../php/contactform.php");
 	?>
-</div>
+</section>
 	
 
 <?php include '../footer.htm' ?>

@@ -1,6 +1,5 @@
 <?php $pagename="Search"; ?>
 <?php include '../header.htm' ?>
-
 <h2 id="pagetitle"><span><?php echo $pagename;?></span>
 	<div id="searchwrapper">
 		<?php 
@@ -12,9 +11,9 @@
 
 <?php if($_GET['searchtype'] == "projects" || $_GET['searchtype'] == "both"){ ?>
 
+<section id="projects" class="hidden">
 <h4>Projects</h4>
-<div id="projectlist">
-	<ol>
+	<ol id="projectlist">
 		<li>
 			<article>
 					<figure>
@@ -22,7 +21,7 @@
 					</figure>
 					<div class="content-wrapper">
 						<h5><a href="http://www.wovenfiredesigns.com">Northwest Artist's Wordpress Website</a></h5>
-						<p> Worpdress website and blog that I was hired to create. Customized theme
+						<p> Wordpress website and blog that I was hired to create. Customized theme
 							developed with PHP, HTML and CSS. Wordpress widgets created and edited,  
 							and custom Admin interface for easy blog development and customization.</p>
 						<a id="view" href="http://www.wovenfiredesigns.com">View Project >></a>
@@ -48,21 +47,21 @@
 						<a href="http://web.engr.oregonstate.edu/~junkerd/projects/task-manager"><img class="square" src="../img/projects/project-manager-square.jpg"></img></a>
 					</figure>
 					<div class="content-wrapper">
-						<h5><a href="http://web.engr.oregonstate.edu/~junkerd/projects/task-manager">CS 275 Final Project</a></h5>
-						<p>Final project for my Web Database Course. Task Management Application to track 
-							progress and time spent, developed with HTML, Javascript PHP, MySQL and 
+						<h5><a href="http://web.engr.oregonstate.edu/~junkerd/projects/task-manager">Project Management Application</a></h5>
+						<p>Final project for CS 275 - <dfn>Introduction to Databases</dfn>. Task Management Application to track 
+							progress and time spent on coursework and projects, developed with HTML, Javascript, PHP, MySQL and 
 							Relational Databases. </p>
 						<a id="view" href="http://web.engr.oregonstate.edu/~junkerd/projects/task-manager">View Project >></a>
 					</div>
 			</article>
 		</li>
 	</ol>
-</div>
+</section>
 
 <?php } if($_GET['searchtype'] == "experiments" || $_GET['searchtype'] == "both"){ ?>
+<section id="labs" class="hidden">
 <h4>Experiments</h4>
-<div id="lablist">
-	<ol>
+	<ol id="lablist">
 		<li>
 			<h6><a href="<?php echo $sitepath;?>/projects/representative-map/">Contact Senator Map</a></h6>
 			<figure>
@@ -81,7 +80,6 @@
 				a user login form and database.</p>
 			<a id="view" href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">View Experiment >></a>
 		</li>
-		</li>
 		<li class="hidden">
 			<h6><a href=""></a></h6>
 			<figure>
@@ -91,13 +89,11 @@
 			<a id="view" href="">View Experiment >></a>
 		</li>
 	</ol>
-	<ol>
-	</ol>
-</div>
+</section>
 <?php } ?>
-<div id="noresults">
+<section id="noresults" class="hidden">
 	Your search - <strong><?php echo $_GET['query'];?></strong> - did not match any projects or experiments.
-</div>
+</section>
 	
 
 <?php include '../footer.htm' ?>

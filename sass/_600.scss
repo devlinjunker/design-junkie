@@ -1,15 +1,15 @@
 // 600 px (Tablet Portrait) width CSS sheet
 
-aside{
-	float: right;
-	width: 28%;
-}
-
 #banner .container{
 	display: block;
 }
 
 body#home{
+	aside#bar{
+		float: right;
+		width: 25%;
+	}
+	
 	.searchform{
 		width:auto;
 		float:none;
@@ -45,6 +45,24 @@ body#home{
 			float:right;
 		}
 	}
+	
+	section#about{
+		width: 98%;
+		
+		#myphoto{
+			margin-left:10px;
+			float:right;
+		}
+	}
+
+	section#projects{
+		float: left;
+		width: 70%;
+	}
+
+	section#labs{
+		float:left;
+	}
 }
 
 .contactform{
@@ -73,11 +91,13 @@ h4{
 
 #lablist{
 	li{
-		margin-top: 20px;
 		width:30%;
 		margin: 0% 1.7%;
 		vertical-align:top;
-		margin-top: 0px;
+	}
+	
+	li:nth-child(n+4){
+		margin-top: 20px;
 	}
 }
 
@@ -136,22 +156,4 @@ h4{
 			margin:0px 2px;
 		}
 	}
-}
-
-section#about{
-	width: 98%;
-	
-	#myphoto{
-		margin-left:10px;
-		float:right;
-	}
-}
-
-section#projects{
-	float: left;
-	width: 70%;
-}
-
-section#labs{
-	float:left;
 }

@@ -1,7 +1,7 @@
 <?php $pagename="Home"; ?>
 <?php include 'header.htm'; ?>
 
-<aside>
+<aside id="bar">
 	<?php 
 		include("php/searchform.php");
 	?>
@@ -18,33 +18,33 @@
 </aside>
 
 <section id="projects" >
-	<h4><a href="projects">Projects<span id="more">More >></span></a></h4>
+	<h4><a href="projects">Projects<span class="more">More >></span></a></h4>
 	
 	<ol id="projectlist">
 		<li>
 			<article>
 					<figure>
-						<a href="http://www.wovenfiredesigns.com"><img class="square" src="img/projects/artist-website-square.jpg"></img></a>
+						<a href="http://www.wovenfiredesigns.com"><img class="square" src="img/projects/artist-website-square.jpg" alt="Artist's Wordpress Website"/></a>
 					</figure>
 					<div class="content-wrapper">
 						<h5><a href="http://www.wovenfiredesigns.com">Wordpress Website for Northwest Artist</a></h5>
-						<p> Worpdress website and blog that I was hired to create. Customized theme
+						<p> Wordpress website and blog that I was hired to create. Customized theme
 							developed with PHP, HTML and CSS. Wordpress widgets created and edited,  
 							and custom Admin interface for easy blog development and customization.</p>
-						<a id="view" href="http://www.wovenfiredesigns.com">View Project >></a>
+						<a class="view" href="http://www.wovenfiredesigns.com">View Project >></a>
 					</div>
 			</article>
 		</li>
 		<li>
 			<article>
 					<figure>
-						<a href="<?php echo $sitepath;?>/projects/iac"><img class="square" src="img/projects/eec-project-manager-square.jpg"></img></a>
+						<a href="<?php echo $sitepath;?>/projects/iac"><img class="square" src="img/projects/eec-project-manager-square.jpg" alt="EEC Database Interface"/></a>
 					</figure>
 					<div class="content-wrapper">
 						<h5><a href="<?php echo $sitepath;?>/projects/iac">OSU Energy Efficiency Center Web Interface</a></h5>
 						<p>Interactive demo of the Web Database interface I developed for the EEC to track
 							project develoment, time-entry management and employee work load. </p>
-						<a id="view" href="<?php echo $sitepath;?>/projects/iac">View Project >></a>
+						<a class="view" href="<?php echo $sitepath;?>/projects/iac">View Project >></a>
 					</div>
 			</article>
 		</li>
@@ -52,42 +52,34 @@
 </section>
 <section id="labs">
 	
-	<h4><a href="labs">Experiments<span id="more">More >></span></a></h4>
+	<h4><a href="labs">Experiments<span class="more">More >></span></a></h4>
 
 	<ol id="lablist">
 		<li>
 			<h6><a href="<?php echo $sitepath;?>/projects/representative-map/">Contact Senator Map</a></h6>
 			<figure>
-				<a href="<?php echo $sitepath;?>/projects/representative-map/"><img class="square" src="img/projects/contact-senator-square.jpg"></img></a>
+				<a href="<?php echo $sitepath;?>/projects/representative-map/"><img class="square" src="img/projects/contact-senator-square.jpg" alt="Contact Senator Map"/></a>
 			</figure>
 			<p>Google Map API used to create Interactive U.S. Map that shows contact information 
 				for state senators.</p>
-			<a id="view" href="../projects/representative-map/">View Experiment >></a>
+			<a class="view" href="../projects/representative-map/">View Experiment >></a>
 		</li>
 		<li>
 			<h6><a href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">Bookshare Application</a></h6>
 			<figure>
-				<a href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/"><img class="square" src="img/projects/textbook-login-square.jpg"></img></a>
+				<a href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/"><img class="square" src="img/projects/textbook-login-square.jpg" alt="Bookshare Application"/></a>
 			</figure>
 			<p>Created for CS 361 - <dfn>Software Engineering 1</dfn> - A PHP web application with 
 				a user login form and database.</p>
-			<a id="view" href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">View Experiment >></a>
-		</li>
-		<li class='hidden'>
-			<h6><a href=""></a></h6>
-			<figure>
-				<img class="square" src=""></img>
-			</figure>
-			<p></p>
-			<a id="view" href="">View Experiment >></a>
+			<a class="view" href="<?php echo $sitepath;?>/projects/textbook-finder/bookdonation/">View Experiment >></a>
 		</li>
 	</ol>
 </section>
 
 <section id="about" class="section">
-	<h4><a href="about">About Me<span id="more">More >></span></a></h4>
+	<h4><a href="about">About Me<span class="more">More >></span></a></h4>
 	
-	<img id="myphoto" src="img/myphoto.jpg"></img>
+	<img id="myphoto" src="img/myphoto.jpg" alt="My Picture"/>
 	
 	<div id="text">
 		<strong>Hi, My name is Devlin Junker,</strong> I'm an undergraduate student studying Computer Science at Oregon 

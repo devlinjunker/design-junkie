@@ -18,7 +18,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <head>
 <?php $sitename = "Design Junkie"; ?>
 <?php $sitedescription = "Devlin Junker"; ?>
-<?php $sitepath = "http://localhost/design-junkie"; ?>
+<?php $sitepath = "http://web.engr.oregonstate.edu/~junkerd"; ?>
 <meta charset="utf-8">
 
 <title><?php echo $pagename." | ".$sitename." | ".$sitedescription; ?></title>
@@ -39,7 +39,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 <![endif]-->
 
 <!-- JavaScript -->
-<script src="js/modernizr-2.5.3-min.js"></script>
+<script src="<?php echo $sitepath;?>/js/modernizr-2.5.3-min.js"></script>
 
 <!-- For iPhone 4 -->
 <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png"> -->
@@ -64,7 +64,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <!-- Prevents links from opening in mobile Safari -->
 <!-- <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> -->
-<meta http-equiv="cleartype" content="on">
+
 
 <?php
 	$scripts = array();
@@ -100,10 +100,8 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 	<div id="wrapper" class="container">
 		<aside id="ticker" class="section container">
-				<h6>
-					<ul>
-						<li>Testing</li>
-					</ul>
-				</h6>
+			<ul>
+				<li>Testing</li>
+			</ul>
 		</aside>
 		<div id="content" class="content clearfix">

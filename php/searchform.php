@@ -4,7 +4,7 @@
 		<div id="advanced">
 			<a href="javascript:$('#options').toggle();"><i class="icon-cog icon-large"></i></a>
 		</div>
-		<input type="text" name="query" id="search" placeholder="Search"/ <?php if(isset($_GET['query'])){ echo "value='$_GET[query]'";}?>>
+		<input type="text" name="query" id="search" placeholder="Search" <?php if(isset($_GET['query'])){ echo "value='$_GET[query]'";}?>/>
 		
 	</div>
 	<div id="options" hidden>

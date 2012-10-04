@@ -11,7 +11,7 @@
 	?>
 
 	<ul id="errors" <?php echo (($RESPONSE && !$FORM["form_ok"]) ? "" : "hidden"); ?>>
-		<li id="info"> 
+		<li id="problems"> 
 			There were some problems with your submission:
 		</li>
 		<?php
@@ -39,7 +39,7 @@
 	<input type="text" id="subject" name="subject" required="required" value="<?php echo ( ($RESPONSE && !$FORM["form_ok"]) ? $FORM["posted_data"]["subject"] : "" );?>"/>
 	</label>
 
-	<textarea id="message" name="message" required="required" min-length="20" placeholder="20 Character Minimum"><?php echo ( ($RESPONSE && !$FORM["form_ok"]) ? $FORM["posted_data"]["message"] : "" );?></textarea>
+	<textarea id="message" name="message" required="required" data-min-length="20" placeholder="20 Character Minimum"><?php echo ( ($RESPONSE && !$FORM["form_ok"]) ? $FORM["posted_data"]["message"] : "" );?></textarea>
 
 	<input type="submit"/>
 </form>
