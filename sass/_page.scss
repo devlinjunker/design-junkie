@@ -184,3 +184,25 @@ h4{
 #quickcontact{
 	padding-top:50px;
 }
+
+#rate_course{
+	input[type="text"]{
+		display: inline;
+		width: auto;
+	}
+
+	input[type="radio"]{
+		display:inline;
+		margin: 8px;
+	}
+}
+
+section#about{
+	display: inline-table;
+	margin-bottom: 30px;
+
+	.btn{
+		margin: 5px 10px;
+		float: right;
+	}
+}
