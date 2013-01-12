@@ -32,7 +32,8 @@
 					<div class="content-wrapper">
 						<h5><a href="http://web.engr.oregonstate.edu/~junkerd/projects/iac">OSU Energy Efficiency Center Web Interface</a></h5>
 						<p>Interactive demo of the Web Database interface I developed for the EEC to track
-							project develoment, time-entry management and employee work load. </p>
+							project develoment, time-entry management and employee work load. Made with PHP, Javascript,
+							HTML, and CSS. Not completely functional due to restrictions on OSU student databases.</p>
 						<a class="view" href="http://web.engr.oregonstate.edu/~junkerd/projects/iac">View Project >></a>
 					</div>
 			</article>

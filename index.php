@@ -13,6 +13,7 @@
 			<li><a href="http://www.linkedin.com/pub/devlin-junker/32/32b/497">LinkedIn</a></li>
 			<li><a href="http://twitter.com/devjunker">Twitter</a></li>
 			<li><a href="http://www.facebook.com/devlin.junker">Facebook</a></li>
+			<li><a href="http://www.github.com/devlinjunker">GitHub</a></li>
 		</ul>
 	</div>
 </aside>
@@ -43,7 +44,8 @@
 					<div class="content-wrapper">
 						<h5><a href="<?php echo $sitepath;?>/projects/iac">OSU Energy Efficiency Center Web Interface</a></h5>
 						<p>Interactive demo of the Web Database interface I developed for the EEC to track
-							project develoment, time-entry management and employee work load. </p>
+							project develoment, time-entry management and employee work load. Made with PHP, Javascript,
+							HTML, and CSS. Not completely functional due to restrictions on OSU student databases.</p>
 						<a class="view" href="<?php echo $sitepath;?>/projects/iac">View Project >></a>
 					</div>
 			</article>
@@ -87,7 +89,7 @@
 		<br/><br/>
 		I have experience with front and back-end development and with using Photoshop to create and design interfaces 
 		for web applications. As a developer I can make the interfaces a reality by using the newest technologies, including
-		HTML5, CSS3, and jQuery. Using PHP and .NET I have experience organizing and manipulating the data on the back-end
+		HTML5, CSS3, and jQuery. I also have experience organizing and manipulating the data on the back-end using PHP
 		in conjunction with SQL database's. 
 		<br/><br/>
 		I am currently interested in freelance design and/or development opportunities. If you are in need of help on a project and 
