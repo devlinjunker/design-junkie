@@ -2770,7 +2770,12 @@ a.view {
   float: right;
 }
 
-/* line 16, ../sass/_page.scss */
+/* line 15, ../sass/_page.scss */
+body#cs494 thead td {
+  font-weight: bold;
+}
+
+/* line 22, ../sass/_page.scss */
 body#home section .more {
   display: none;
   color: #bfbfbf;
@@ -2783,45 +2788,45 @@ body#home section .more {
   position: absolute;
   right: 15px;
 }
-/* line 27, ../sass/_page.scss */
+/* line 33, ../sass/_page.scss */
 body#home section .more:hover {
   color: gray;
   border: 1px solid #bfbfbf;
 }
-/* line 32, ../sass/_page.scss */
+/* line 38, ../sass/_page.scss */
 body#home section #about {
   display: table;
   margin-bottom: 30px;
 }
-/* line 35, ../sass/_page.scss */
+/* line 41, ../sass/_page.scss */
 body#home section #about .btn {
   margin: 5px 10px;
   float: right;
 }
-/* line 44, ../sass/_page.scss */
+/* line 50, ../sass/_page.scss */
 body#home .searchform {
   width: 80%;
 }
 
-/* line 50, ../sass/_page.scss */
+/* line 56, ../sass/_page.scss */
 body#search h4 {
   padding-left: 20px;
 }
-/* line 54, ../sass/_page.scss */
+/* line 60, ../sass/_page.scss */
 body#search #noresults {
   text-align: center;
 }
 
-/* line 60, ../sass/_page.scss */
+/* line 67, ../sass/_page.scss */
 h4 a {
   color: #000203;
 }
-/* line 62, ../sass/_page.scss */
+/* line 69, ../sass/_page.scss */
 h4 a:hover {
   text-decoration: none;
 }
 
-/* line 68, ../sass/_page.scss */
+/* line 75, ../sass/_page.scss */
 #lablist {
   *zoom: 1;
   margin-bottom: 1.5em;
@@ -2835,7 +2840,7 @@ h4 a:hover {
 #lablist:after {
   clear: both;
 }
-/* line 72, ../sass/_page.scss */
+/* line 79, ../sass/_page.scss */
 #lablist li {
   display: inline-block;
   *zoom: 1;
@@ -2861,74 +2866,74 @@ h4 a:hover {
 #lablist li:after {
   clear: both;
 }
-/* line 88, ../sass/_page.scss */
+/* line 95, ../sass/_page.scss */
 #lablist li figure {
   width: 150px;
   margin-bottom: 0px;
   margin: auto;
 }
-/* line 89, ../sass/_page.scss */
+/* line 96, ../sass/_page.scss */
 #lablist li figure img {
   float: center;
 }
-/* line 97, ../sass/_page.scss */
+/* line 104, ../sass/_page.scss */
 #lablist li h6 {
   margin-bottom: 2px;
   text-align: center;
   font-weight: bold;
 }
-/* line 104, ../sass/_page.scss */
+/* line 111, ../sass/_page.scss */
 #lablist li:nth-child(3n+1) {
   margin-left: 0px;
 }
-/* line 108, ../sass/_page.scss */
+/* line 115, ../sass/_page.scss */
 #lablist li:nth-child(3n) {
   margin-right: 0px;
 }
 
-/* line 113, ../sass/_page.scss */
+/* line 120, ../sass/_page.scss */
 #links {
   margin-top: 20px;
 }
 
-/* line 117, ../sass/_page.scss */
+/* line 124, ../sass/_page.scss */
 #linklist {
   font-size: 13px;
   font-size: 1.3rem;
   color: #013568;
   list-style: disc inside;
 }
-/* line 122, ../sass/_page.scss */
+/* line 129, ../sass/_page.scss */
 #linklist li {
   display: inline;
   list-style: disc inside;
 }
-/* line 127, ../sass/_page.scss */
+/* line 134, ../sass/_page.scss */
 #linklist li:before {
   content: " - ";
 }
 
-/* line 132, ../sass/_page.scss */
+/* line 139, ../sass/_page.scss */
 #mainmenu {
   display: table;
   width: 100%;
   margin-bottom: 0.75em;
 }
-/* line 137, ../sass/_page.scss */
+/* line 144, ../sass/_page.scss */
 #mainmenu ul {
   display: table-row;
 }
-/* line 140, ../sass/_page.scss */
+/* line 147, ../sass/_page.scss */
 #mainmenu ul li {
   display: table-cell;
   text-align: center;
 }
 
-/* line 147, ../sass/_page.scss */
+/* line 154, ../sass/_page.scss */
 #projectlist {
   margin-bottom: 1.5em;
 }
-/* line 150, ../sass/_page.scss */
+/* line 157, ../sass/_page.scss */
 #projectlist li {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -2951,48 +2956,53 @@ h4 a:hover {
 #projectlist li:after {
   clear: both;
 }
-/* line 161, ../sass/_page.scss */
+/* line 168, ../sass/_page.scss */
 #projectlist li .content-wrapper {
   padding-top: 15px;
 }
-/* line 166, ../sass/_page.scss */
+/* line 173, ../sass/_page.scss */
 #projectlist li figure {
   width: 150px;
   float: left;
   margin-bottom: 0px;
   margin-right: 15px;
 }
-/* line 175, ../sass/_page.scss */
+/* line 182, ../sass/_page.scss */
 #projectlist li:first-child {
   margin-top: 0px;
 }
-/* line 179, ../sass/_page.scss */
+/* line 186, ../sass/_page.scss */
 #projectlist li:last-child {
   margin-bottom: 0px;
 }
 
-/* line 184, ../sass/_page.scss */
+/* line 191, ../sass/_page.scss */
 #quickcontact {
   padding-top: 50px;
 }
 
-/* line 189, ../sass/_page.scss */
+/* line 196, ../sass/_page.scss */
+#rate_course label {
+  width: 100px;
+  display: inline-block;
+}
+/* line 201, ../sass/_page.scss */
 #rate_course input[type="text"] {
   display: inline;
   width: auto;
 }
-/* line 194, ../sass/_page.scss */
+/* line 206, ../sass/_page.scss */
 #rate_course input[type="radio"] {
   display: inline;
   margin: 8px;
 }
 
-/* line 200, ../sass/_page.scss */
+/* line 212, ../sass/_page.scss */
 section#about {
   display: inline-table;
   margin-bottom: 30px;
 }
-/* line 204, ../sass/_page.scss */
+/* line 216, ../sass/_page.scss */
 section#about .btn {
   margin: 5px 10px;
   float: right;

@@ -41,19 +41,24 @@
 		<li>CS 411 - Operating Systems II</li>
 		<li>CS 419 - Intro to Data Visualization</li>
 		<li>CS 440 - Database Management Systems</li>
+		<li>CS 496 - Cloud and Mobile Development</li>
 	</ul>
 </section>
 <section>
 	<h4>Rate a Course</h4>
 	<form id="rate_course">
-		<label for="name">Course Name: <input type="text" name="name"/></label>
-		<label for="rating">Rating: 
-			1<input type="radio" name="rating" value="1"/>
-			2<input type="radio" name="rating" value="2"/>
-			3<input type="radio" name="rating" value="3"/>
-			4<input type="radio" name="rating" value="4"/>
-			5<input type="radio" name="rating" value="5"/>
-		</label>
+		<div>
+			<label for="name">Course Name:</label>
+			<input type="text" name="name"/>
+		</div>
+		<div>
+			<label for="rating">Rating:</label> 
+			1 <input type="radio" name="rating" value="1"/>
+			2 <input type="radio" name="rating" value="2"/>
+			3 <input type="radio" name="rating" value="3"/>
+			4 <input type="radio" name="rating" value="4"/>
+			5 <input type="radio" name="rating" value="5"/>
+		</div>
 	</form>
 </section>	
 

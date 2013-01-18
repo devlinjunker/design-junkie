@@ -11,6 +11,12 @@ a.view{
 	float:right;
 }
 
+body#cs494{
+	thead td{
+		font-weight:bold;
+	}		
+}
+
 body#home{
 	section{
 		.more{
@@ -55,6 +61,7 @@ body#search{
 		text-align:center;
 	}
 }
+
 
 h4{
 	a{
@@ -186,6 +193,11 @@ h4{
 }
 
 #rate_course{
+	label{
+		width: 100px;
+		display: inline-block;
+	}
+
 	input[type="text"]{
 		display: inline;
 		width: auto;
