@@ -3008,6 +3008,11 @@ section#about .btn {
   float: right;
 }
 
+/* line 222, ../sass/_page.scss */
+table#cs494_assignments tr {
+  cursor: pointer;
+}
+
 /* Modernizr =================================================== */
 /* audio */
 /* applicationcache */

@@ -68,9 +68,11 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 
 <?php
 	$scripts = array();
+
+	$body_id = str_replace( " ", "_", strtolower($pagename) );
 ?>
 </head>
-<body id="<?php echo strtolower($pagename);?>" class="clearfix">
+<body id="<?php echo $body_id;?>" class="clearfix">
 
 	<header id="banner">
 		<div class="container">

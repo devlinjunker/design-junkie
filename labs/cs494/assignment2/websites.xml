@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<root>
+	<website>
+		<name>Reddit</name>
+		<link>http://www.reddit.com</link>
+	</website>
+	<website>
+		<name>LifeHacker</name>
+		<link>http://www.lifehacker.com</link>
+	</website>
+	<website>
+		<name>Facebook</name>
+		<link>http://www.facebook.com</link>
+    </website>
+    <website>
+        <name>LinkedIn</name>
+        <link>http://www.linkedin.com</link>
+    </website>
+</root>

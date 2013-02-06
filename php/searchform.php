@@ -1,4 +1,4 @@
-<?php $scripts[] = "searchform.js"; ?>
+<?php // $scripts[] = "searchform.js"; ?>
 <form class="searchform" action="<?php echo $sitepath;?>/search">
 	<div id="searchbarwrapper">
 		<div id="advanced">
