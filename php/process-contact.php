@@ -1,6 +1,7 @@
 <?php
-	if( isset($_POST) ){  
-		// form validation vars  
+    include('../settings.php');
+    if( !empty($_POST) ){  
+        // form validation vars  
 		$formok = true;  
 		$errors = array();  
 		
@@ -76,9 +77,12 @@
 			session_start();  
 			$_SESSION['cf_returndata'] = $returndata;  
 			
-			// redirect back to form  
-			header('location: ' . $_SERVER['HTTP_REFERER']);  
+            // redirect back to form 
+            echo "<script> window.location.replace('$_SERVER[HTTP_REFERER]')</script>"; 
+			//header('location: ' . $_SERVER['HTTP_REFERER']);  
 		}  
 		
-	}
+    }else{
+            echo "<script> window.location.replace('$sitepath/index.php');</script>"; 
+    }
 ?>

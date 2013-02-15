@@ -17,6 +17,24 @@ body#cs494{
 	}		
 }
 
+body#cs494_assignment3{
+    table#actor_table{
+        thead td{
+            font-weight: bolder;
+        }
+
+        tbody .actor_name{
+            cursor: pointer;
+        }
+
+        #actor_photo img{
+            display: block;
+            margin: auto;
+            max-height: 200px;
+        }
+    }
+}
+
 body#home{
 	section{
 		.more{

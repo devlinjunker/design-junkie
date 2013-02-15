@@ -22,7 +22,11 @@
 			<tr id="assignment2">
 				<td><h4>Assignment 2</h4></td>
 				<td>Practice Javascript and jQuery by retrieving XML information using AJAX and displaying specific information in the XML on the page and in local storage or a cookie on the users computer. <div class="more">More ..</div></td>
-			</tr>
+            </tr>
+            <tr id="assignment3">
+                <td><h4>Assignment 3</h4></td>
+                <td>Practice using Databases with PHP and AJAX to store and retrieve entries from a table <div class="more">More..</div></td>
+            </tr>
 		</tbody>
 	</table>
 </section>

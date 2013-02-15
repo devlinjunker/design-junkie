@@ -63,6 +63,37 @@ input [type=submit]{
 	}
 }
 
+.file_upload_fix{
+    position: relative;
+
+    input{
+        cursor: pointer;
+
+        &[type=file]{
+            visibility: hidden;
+            z-index: 2;
+            position: absolute;
+               
+/*            &.webkit{   
+                bottom: 100%;
+            }
+
+            &.moz{
+                top: 100%;
+            }
+*/        }
+
+        &[type=text]{
+            width: 200px;
+            margin-left: 0px;
+            
+        }
+    }
+
+    .new_upload{
+    }
+}
+
 fieldset {
 margin-bottom : $baselineheight;
 padding : 0;

@@ -150,6 +150,16 @@
 				});
 			}	
 		} 
-	}
+	}else if( bodyId == "cs494_assignment3"){
+        var actorPhoto = $('#actor_photo img');
+
+        $("#actor_table tr.actor_info").each(function(){
+            var actorID = $(this).attr('data-actor-id');
+            
+            $(this).bind('click', function(){
+                actorPhoto.removeClass("hidden").attr("src", "view-photo.php?id="+actorID);
+            })
+        }); 
+    }
 
 })();

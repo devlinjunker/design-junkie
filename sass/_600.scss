@@ -65,6 +65,33 @@ body#home{
 	}
 }
 
+#actor_form{
+    label{
+        display: table-row;
+    }
+
+    .label_text{
+        display: table-cell;
+        text-align: right;
+        width: 200px;
+    }
+
+    input{
+        margin-left:10px;
+        display: table-cell;
+        
+        &[type=url]{
+            width: 400px;
+        }
+    }
+}
+
+#actor_table{
+    td.no_data{
+        text-align: center;
+    }
+}
+
 .contactform{
 	width: 600px;
 
